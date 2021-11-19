@@ -1,0 +1,1705 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.22f1 (e1a7f79fd887) revision 14788599'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 18363.1440; Version 1909; 64bit' Language: 'tr' Physical Memory: 8004 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.22f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/wotan/Desktop/Unity/SR_Simulation2
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+58876
+Successfully changed project path to: C:/Users/wotan/Desktop/Unity/SR_Simulation2
+C:/Users/wotan/Desktop/Unity/SR_Simulation2
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 41.67 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.22f1 (e1a7f79fd887)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.22f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/wotan/Desktop/Unity/SR_Simulation2/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 960M (ID=0x139b)
+    Vendor:   
+    VRAM:     4053 MB
+    Driver:   27.21.14.6589
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.22f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.22f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.22f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56348
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.22f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.22f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002969 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 40.08 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.664 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1664ms)
+		BeginReloadAssembly (72ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (625ms)
+			LoadAssemblies (69ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (205ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (235ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (40ms)
+				BeforeProcessingInitializeOnLoad (23ms)
+				ProcessInitializeOnLoadAttributes (127ms)
+				ProcessInitializeOnLoadMethodAttributes (37ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.006945 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.35 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.504 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1505ms)
+		BeginReloadAssembly (207ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (25ms)
+		EndReloadAssembly (1215ms)
+			LoadAssemblies (132ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (373ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (54ms)
+			SetupLoadedEditorAssemblies (519ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (139ms)
+				ProcessInitializeOnLoadAttributes (351ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.15 seconds
+Refreshing native plugins compatible for Editor in 0.36 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1489 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 68.6 MB.
+System memory in use after: 68.7 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 1925.
+Total: 3.979200 ms (FindLiveObjects: 0.234400 ms CreateObjectMapping: 0.053000 ms MarkObjects: 3.588600 ms  DeleteObjects: 0.102100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/External
+  artifactKey: Guid(227768ce9baab3e4ab619246c59e8bbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External using Guid(227768ce9baab3e4ab619246c59e8bbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3715292ea96ac9bde816d7e67cb3cc71') in 0.017741 seconds 
+  Import took 0.020484 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 42.989025 seconds.
+  path: Assets/External/Ground textures pack
+  artifactKey: Guid(8740c54bc870e104abb6cfabfa7fbc05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Ground textures pack using Guid(8740c54bc870e104abb6cfabfa7fbc05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6ea857c0c059ac63596bcd7431443b0') in 0.017227 seconds 
+  Import took 0.020546 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.834425 seconds.
+  path: Assets/External/Ground textures pack/Grass & dead leafs 01
+  artifactKey: Guid(55c0c04a511ad1245b9d648a3c6db41e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Ground textures pack/Grass & dead leafs 01 using Guid(55c0c04a511ad1245b9d648a3c6db41e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '538f93bf181c4a508ab505a9ba57966d') in 0.013263 seconds 
+  Import took 0.017883 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.029264 seconds.
+  path: Assets/External/Ground textures pack/Grass & dead leafs 01/diffuse.tga
+  artifactKey: Guid(46c9b2c471a59f24cbe88eae93a32f60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Ground textures pack/Grass & dead leafs 01/diffuse.tga using Guid(46c9b2c471a59f24cbe88eae93a32f60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07af939ad62f7d5182787d8ce1ca0c53') in 0.125164 seconds 
+  Import took 0.134445 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/External/Ground textures pack/Grass & dead leafs 01/normal.tga
+  artifactKey: Guid(ae0e7acc3616ba441a70994eb662f6e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Ground textures pack/Grass & dead leafs 01/normal.tga using Guid(ae0e7acc3616ba441a70994eb662f6e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '362148fc4f06fab29027f0137663832c') in 0.054571 seconds 
+  Import took 0.057316 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000418 seconds.
+  path: Assets/External/Ground textures pack/Grass & dead leafs 01/Grass & dead leafs pattern 01.mat
+  artifactKey: Guid(893960384de673345a82517892b28bc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Ground textures pack/Grass & dead leafs 01/Grass & dead leafs pattern 01.mat using Guid(893960384de673345a82517892b28bc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b8849282d3c22f8da8f1fe0678cc2a4') in 0.358826 seconds 
+  Import took 0.363579 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000445 seconds.
+  path: Assets/External/Ground textures pack/Grass & dead leafs 01/preview.jpg
+  artifactKey: Guid(9f425c22a471a47459e192cb7dafd4c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Ground textures pack/Grass & dead leafs 01/preview.jpg using Guid(9f425c22a471a47459e192cb7dafd4c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '522f2b3f927dbbefddf2d6484603af26') in 0.180288 seconds 
+  Import took 0.183280 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.789097 seconds.
+  path: Assets/External/Ground textures pack/Grass & dead leafs 01/Materials
+  artifactKey: Guid(09857c806d40b3f41be11c4cd57c9f45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Ground textures pack/Grass & dead leafs 01/Materials using Guid(09857c806d40b3f41be11c4cd57c9f45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5181466009c0e2ebdfebee7fcf61d50') in 0.011518 seconds 
+  Import took 0.014905 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.040181 seconds.
+  path: Assets/External/Ground textures pack/Grass & dead leafs 01/Materials/diffuse.mat
+  artifactKey: Guid(dec60d35eb8ce474a8fdc713c5274cca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Ground textures pack/Grass & dead leafs 01/Materials/diffuse.mat using Guid(dec60d35eb8ce474a8fdc713c5274cca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e09918582365ab35889377deca1e03c') in 0.062439 seconds 
+  Import took 0.069091 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/External/Ground textures pack/Grass & dead leafs 01/Materials/preview.mat
+  artifactKey: Guid(d07d61c2274d67f42889af694d7c9d89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Ground textures pack/Grass & dead leafs 01/Materials/preview.mat using Guid(d07d61c2274d67f42889af694d7c9d89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7297701d1d3e7faee8b0fe098661f875') in 0.033526 seconds 
+  Import took 0.036498 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000409 seconds.
+  path: Assets/External/Ground textures pack/Grass & dead leafs 01/Materials/normal.mat
+  artifactKey: Guid(563a5664e7a9bbf4b9e29cec179538c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Ground textures pack/Grass & dead leafs 01/Materials/normal.mat using Guid(563a5664e7a9bbf4b9e29cec179538c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd566872ea1e2ff997bf3e097752bea7') in 0.067018 seconds 
+  Import took 0.072092 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.903523 seconds.
+  path: Assets/External/Ground textures pack/Dry ground
+  artifactKey: Guid(8a52e7e989c791a4584071134f773986) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Ground textures pack/Dry ground using Guid(8a52e7e989c791a4584071134f773986) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54d31f496df8efcfad55e4e1bcbd7189') in 0.010084 seconds 
+  Import took 0.014767 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.509627 seconds.
+  path: Assets/External/Ground textures pack/Dry ground/diffuse.tga
+  artifactKey: Guid(f5d1de47f0f760544a5596ceb8cc895f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Ground textures pack/Dry ground/diffuse.tga using Guid(f5d1de47f0f760544a5596ceb8cc895f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6057c720a8e631672840ccc4e8c1ac1') in 0.015580 seconds 
+  Import took 0.018757 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/External/Ground textures pack/Dry ground/preview.jpg
+  artifactKey: Guid(4602e8f26b3f5b24d8e4fd1af5e63cfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Ground textures pack/Dry ground/preview.jpg using Guid(4602e8f26b3f5b24d8e4fd1af5e63cfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13dcee8cc2657162e641450ee01bc8e6') in 0.015588 seconds 
+  Import took 0.022554 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000352 seconds.
+  path: Assets/External/Ground textures pack/Dry ground/Dry ground pattern.mat
+  artifactKey: Guid(d805d830c4023774cb6259aca09f431e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Ground textures pack/Dry ground/Dry ground pattern.mat using Guid(d805d830c4023774cb6259aca09f431e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51ee03f92392010a9b981e03b3904e96') in 0.199923 seconds 
+  Import took 0.203774 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000372 seconds.
+  path: Assets/External/Ground textures pack/Dry ground/normal.tga
+  artifactKey: Guid(af579c7a89d15d24eb8c925a43a236cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Ground textures pack/Dry ground/normal.tga using Guid(af579c7a89d15d24eb8c925a43a236cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9ae1c09a289eafc941964d590c55230') in 0.031490 seconds 
+  Import took 0.035562 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.215572 seconds.
+  path: Assets/External/Ground textures pack/Grass 01
+  artifactKey: Guid(c23b0d01e5bf881419d332d640e4dd29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Ground textures pack/Grass 01 using Guid(c23b0d01e5bf881419d332d640e4dd29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92f3de27229f87af195a9e68d3c62303') in 0.010677 seconds 
+  Import took 0.018519 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.036245 seconds.
+  path: Assets/External/Ground textures pack/Grass 01/diffuse.tga
+  artifactKey: Guid(a51044dfe95257548b466bc35528b878) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Ground textures pack/Grass 01/diffuse.tga using Guid(a51044dfe95257548b466bc35528b878) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f50d08cd5c5e6e1b3db9567741a4401') in 0.061763 seconds 
+  Import took 0.065941 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000347 seconds.
+  path: Assets/External/Ground textures pack/Grass 01/normal.tga
+  artifactKey: Guid(0c3232df383d7984ab0e87bf7c42aadb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Ground textures pack/Grass 01/normal.tga using Guid(0c3232df383d7984ab0e87bf7c42aadb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b27c14c25cc7e9966fdf78a776f6e2bc') in 0.023427 seconds 
+  Import took 0.027019 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000437 seconds.
+  path: Assets/External/Ground textures pack/Grass 01/preview.jpg
+  artifactKey: Guid(c70f0b4ce904a324c8c6dbe6d66251e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Ground textures pack/Grass 01/preview.jpg using Guid(c70f0b4ce904a324c8c6dbe6d66251e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b959437d2c4ff040579f9ad33f25747e') in 0.030656 seconds 
+  Import took 0.034677 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000404 seconds.
+  path: Assets/External/Ground textures pack/Grass 01/Grass pattern 01.mat
+  artifactKey: Guid(2c6f5ab601d22834883d3c7e18f8be41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Ground textures pack/Grass 01/Grass pattern 01.mat using Guid(2c6f5ab601d22834883d3c7e18f8be41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bfa841682d7c208a36f0383ba343fa6') in 0.030517 seconds 
+  Import took 0.038714 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.257299 seconds.
+  path: Assets/External/Ground textures pack/Grass 02
+  artifactKey: Guid(d6c7cf31f9876a64e9f13de8a0c01d22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Ground textures pack/Grass 02 using Guid(d6c7cf31f9876a64e9f13de8a0c01d22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0300a44f3b822b5af0e5488209e74b46') in 0.010197 seconds 
+  Import took 0.016344 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.031929 seconds.
+  path: Assets/External/Ground textures pack/Grass 02/diffuse.tga
+  artifactKey: Guid(d902345b12dd31e4a83f0c375a540341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Ground textures pack/Grass 02/diffuse.tga using Guid(d902345b12dd31e4a83f0c375a540341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '185cacbfe84ec32f3fb55311fa8cf573') in 0.068278 seconds 
+  Import took 0.071479 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000413 seconds.
+  path: Assets/External/Ground textures pack/Grass 02/normal.tga
+  artifactKey: Guid(3449a2e698a0deb44a70dec747a3f8e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Ground textures pack/Grass 02/normal.tga using Guid(3449a2e698a0deb44a70dec747a3f8e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0040204fd349571d1c6de7b2ba1a7fd') in 0.027308 seconds 
+  Import took 0.032889 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000327 seconds.
+  path: Assets/External/Ground textures pack/Grass 02/preview.jpg
+  artifactKey: Guid(c3f3938c7c9e3d746a4d01269c0e3bbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Ground textures pack/Grass 02/preview.jpg using Guid(c3f3938c7c9e3d746a4d01269c0e3bbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8feb63051782ce6e35bf9396630a15bf') in 0.044561 seconds 
+  Import took 0.049140 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000392 seconds.
+  path: Assets/External/Ground textures pack/Grass 02/Grass pattern 02.mat
+  artifactKey: Guid(15654a743eccf384fb2312048db767f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Ground textures pack/Grass 02/Grass pattern 02.mat using Guid(15654a743eccf384fb2312048db767f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ff46d31267cd8ecb8a0f2fe45175193') in 0.025969 seconds 
+  Import took 0.031103 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 172.147714 seconds.
+  path: Assets/External/Skybox
+  artifactKey: Guid(3788272d4854f95449a2f91b7ec1b7f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Skybox using Guid(3788272d4854f95449a2f91b7ec1b7f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e250e2f879f44958cc05393f7587dbb7') in 0.012578 seconds 
+  Import took 0.018634 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.179802 seconds.
+  path: Assets/External/Skybox/Cubemaps
+  artifactKey: Guid(05ed5ae0357ba2b42acc61e9297be678) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Skybox/Cubemaps using Guid(05ed5ae0357ba2b42acc61e9297be678) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '458899779cb0093fc3491f28171500b8') in 0.008085 seconds 
+  Import took 0.016424 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.042707 seconds.
+  path: Assets/External/Skybox/Cubemaps/daytime.hdr
+  artifactKey: Guid(1cde0e200e792cb4491204276a656490) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Skybox/Cubemaps/daytime.hdr using Guid(1cde0e200e792cb4491204276a656490) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e727350860ad0930ea1f49c1b70812de') in 0.109951 seconds 
+  Import took 0.117503 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000425 seconds.
+  path: Assets/External/Skybox/Cubemaps/sunset.hdr
+  artifactKey: Guid(656a59a5ff93c46498416d97e5c16b66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Skybox/Cubemaps/sunset.hdr using Guid(656a59a5ff93c46498416d97e5c16b66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5541185ede369054222a0f226b9c317') in 0.068240 seconds 
+  Import took 0.074187 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 323.103506 seconds.
+  path: Assets/External/Military target
+  artifactKey: Guid(2078f95c910d5534088877ed1b8cce9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Military target using Guid(2078f95c910d5534088877ed1b8cce9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fc444a985d10521229c1965a0203522') in 0.017671 seconds 
+  Import took 0.024020 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000391 seconds.
+  path: Assets/External/Military target/mark.fbx
+  artifactKey: Guid(69ac849705380e545b944862e45591c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Military target/mark.fbx using Guid(69ac849705380e545b944862e45591c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8723a7f16b30a752898f508d32582e95') in 0.168455 seconds 
+  Import took 0.173394 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/External/Military target/mark.obj
+  artifactKey: Guid(891fa28b8b798634d8e1e9ca6e6593f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Military target/mark.obj using Guid(891fa28b8b798634d8e1e9ca6e6593f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39a7e29d2329d597a8f89ac08539a007') in 0.052249 seconds 
+  Import took 0.055466 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 62.251939 seconds.
+  path: Assets/External/Military target/Prefabs
+  artifactKey: Guid(bd42d4315f39c9a47afbfd1142ec84dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Military target/Prefabs using Guid(bd42d4315f39c9a47afbfd1142ec84dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98a3193f53ebc61ec1c133e00e78757d') in 0.013590 seconds 
+  Import took 0.018562 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.034264 seconds.
+  path: Assets/External/Military target/Prefabs/Military target.prefab
+  artifactKey: Guid(9437be881ad682348bd31aa228922027) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Military target/Prefabs/Military target.prefab using Guid(9437be881ad682348bd31aa228922027) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd330c322bf14d8bb5f0447e37f9566cf') in 0.435828 seconds 
+  Import took 0.439584 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 184.185283 seconds.
+  path: Assets/External/Training_dummy
+  artifactKey: Guid(27f4c117b112cba4b87087175b26b2f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Training_dummy using Guid(27f4c117b112cba4b87087175b26b2f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '050753bb10bcfdd7045ad1d564a8ffc0') in 0.008555 seconds 
+  Import took 0.012428 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.218937 seconds.
+  path: Assets/External/Training_dummy/Animator
+  artifactKey: Guid(44ef8bbd12fdf6d4f8bf19a09859017f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Training_dummy/Animator using Guid(44ef8bbd12fdf6d4f8bf19a09859017f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '098b5f1c8764a92480b926bbe592a94c') in 0.012421 seconds 
+  Import took 0.017643 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.781262 seconds.
+  path: Assets/External/Training_dummy/Prefab
+  artifactKey: Guid(d85268b8eb4b56a409b7fc812ac78fbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Training_dummy/Prefab using Guid(d85268b8eb4b56a409b7fc812ac78fbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78c3f6f4304468a6382bbcfb570f2b56') in 0.010654 seconds 
+  Import took 0.014013 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.047056 seconds.
+  path: Assets/External/Training_dummy/Prefab/training_dummy.prefab
+  artifactKey: Guid(0331b169005eb1d469455efaa6b9024a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Training_dummy/Prefab/training_dummy.prefab using Guid(0331b169005eb1d469455efaa6b9024a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91d6f99b492ce1e382e678288a10e794') in 0.328637 seconds 
+  Import took 0.334639 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 195.915943 seconds.
+  path: Assets/External/Ground textures pack/Grass 05
+  artifactKey: Guid(a1de0a14764436648bd4b3ad0cbe20c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Ground textures pack/Grass 05 using Guid(a1de0a14764436648bd4b3ad0cbe20c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '944cbfb85a94047f4965109393df32d6') in 0.009827 seconds 
+  Import took 0.013186 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.032446 seconds.
+  path: Assets/External/Ground textures pack/Grass 05/diffuse.tga
+  artifactKey: Guid(f0a8168310b10da4faedc474bb26c20f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Ground textures pack/Grass 05/diffuse.tga using Guid(f0a8168310b10da4faedc474bb26c20f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23266cd6a4e5eb2e52aadba567679028') in 0.062211 seconds 
+  Import took 0.067361 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000411 seconds.
+  path: Assets/External/Ground textures pack/Grass 05/Grass pattern 05.mat
+  artifactKey: Guid(49c3c02661a83fd42b33859cfbf9a17d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Ground textures pack/Grass 05/Grass pattern 05.mat using Guid(49c3c02661a83fd42b33859cfbf9a17d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c6b7322f724febb8a3c52ae256d5578') in 0.103141 seconds 
+  Import took 0.107196 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/External/Ground textures pack/Grass 05/normal.tga
+  artifactKey: Guid(f0ec40764219f3f4787df1c70bacf45b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Ground textures pack/Grass 05/normal.tga using Guid(f0ec40764219f3f4787df1c70bacf45b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16bf14246e5171eac41890fb4fc07d58') in 0.033586 seconds 
+  Import took 0.038372 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000494 seconds.
+  path: Assets/External/Ground textures pack/Grass 05/preview.jpg
+  artifactKey: Guid(3f700d4069d83574ea6db821b3f8c561) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Ground textures pack/Grass 05/preview.jpg using Guid(3f700d4069d83574ea6db821b3f8c561) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d62c6917708b671f42aa9e24d3fd01d') in 0.021410 seconds 
+  Import took 0.026741 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 61.049198 seconds.
+  path: Assets/External/Ground textures pack/Ground 02
+  artifactKey: Guid(b9acee102bbb8d64fa484c9532024bbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Ground textures pack/Ground 02 using Guid(b9acee102bbb8d64fa484c9532024bbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb23880fe351eded9818b16ca38edae6') in 0.010858 seconds 
+  Import took 0.017510 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.035644 seconds.
+  path: Assets/External/Ground textures pack/Ground 02/diffuse.tga
+  artifactKey: Guid(cd4f831376722b54bbadd59ef7c6c744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Ground textures pack/Ground 02/diffuse.tga using Guid(cd4f831376722b54bbadd59ef7c6c744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8aedb29b5449b936a61e2b0ba951d1f') in 0.067657 seconds 
+  Import took 0.070884 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000493 seconds.
+  path: Assets/External/Ground textures pack/Ground 02/preview.jpg
+  artifactKey: Guid(37779bd72b60e0d4395ece867eb81c63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Ground textures pack/Ground 02/preview.jpg using Guid(37779bd72b60e0d4395ece867eb81c63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23bc1cb65addd4e9dee56d980a78c848') in 0.023058 seconds 
+  Import took 0.026374 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000368 seconds.
+  path: Assets/External/Ground textures pack/Ground 02/Ground pattern 02.mat
+  artifactKey: Guid(36508c771463abf43b7135d9539897e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Ground textures pack/Ground 02/Ground pattern 02.mat using Guid(36508c771463abf43b7135d9539897e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52ac7153dda3dac980261bfcc14045e5') in 0.089633 seconds 
+  Import took 0.093946 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/External/Ground textures pack/Ground 02/normal.tga
+  artifactKey: Guid(bf5346a62bd7d0b43a30d8188cf4163e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Ground textures pack/Ground 02/normal.tga using Guid(bf5346a62bd7d0b43a30d8188cf4163e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b276cea1aa93dd56ffc0fea7588549a') in 0.044108 seconds 
+  Import took 0.049250 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.017454 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.39 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.293 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1293ms)
+		BeginReloadAssembly (131ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (43ms)
+		EndReloadAssembly (1077ms)
+			LoadAssemblies (106ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (423ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (379ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (96ms)
+				ProcessInitializeOnLoadAttributes (257ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.82 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1484 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.4 MB.
+System memory in use after: 87.5 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1982.
+Total: 3.783500 ms (FindLiveObjects: 0.176700 ms CreateObjectMapping: 0.049400 ms MarkObjects: 3.496000 ms  DeleteObjects: 0.060300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008908 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.92 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.294 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1295ms)
+		BeginReloadAssembly (180ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (14ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (58ms)
+		EndReloadAssembly (1033ms)
+			LoadAssemblies (129ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (380ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (374ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (91ms)
+				ProcessInitializeOnLoadAttributes (254ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.43 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1484 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.4 MB.
+System memory in use after: 87.5 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1984.
+Total: 3.762700 ms (FindLiveObjects: 0.231100 ms CreateObjectMapping: 0.049200 ms MarkObjects: 3.415000 ms  DeleteObjects: 0.066200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 137.322560 seconds.
+  path: Assets/External/Low Poly Castle Siege Pack
+  artifactKey: Guid(27ed906884efd144cad7157f26808a7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Low Poly Castle Siege Pack using Guid(27ed906884efd144cad7157f26808a7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8996c15f783739c360b05a801b52c90b') in 0.013728 seconds 
+  Import took 0.018646 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.113109 seconds.
+  path: Assets/External/Low Poly Castle Siege Pack/Prefabs
+  artifactKey: Guid(c49455136a39d1c49ab8c78c1c34abb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Low Poly Castle Siege Pack/Prefabs using Guid(c49455136a39d1c49ab8c78c1c34abb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c77d92492f22af4bfcabfc78f576ff41') in 0.003202 seconds 
+  Import took 0.007468 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.738545 seconds.
+  path: Assets/External/Low Poly Castle Siege Pack/Prefabs/Models
+  artifactKey: Guid(426bd5b773a89ea4fa06d203ff3cdf0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Low Poly Castle Siege Pack/Prefabs/Models using Guid(426bd5b773a89ea4fa06d203ff3cdf0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c559160fe80505d5a02ab3884f57a95e') in 0.011560 seconds 
+  Import took 0.015705 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.998975 seconds.
+  path: Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Environment
+  artifactKey: Guid(27a960c11eb71a54b97090c77c7b03ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Environment using Guid(27a960c11eb71a54b97090c77c7b03ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bac0968216aa83267b98dacc3f7f305c') in 0.011680 seconds 
+  Import took 0.014957 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.041149 seconds.
+  path: Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Environment/Campfire 1.prefab
+  artifactKey: Guid(310ca6c7edf191243823453be6a1b967) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Environment/Campfire 1.prefab using Guid(310ca6c7edf191243823453be6a1b967) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '860634660b08a04e555b5ff319dfcc5f') in 0.302446 seconds 
+  Import took 0.306882 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000474 seconds.
+  path: Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Environment/Fence 4.prefab
+  artifactKey: Guid(8ceb378454400a54fbabfeb2dc0b1210) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Environment/Fence 4.prefab using Guid(8ceb378454400a54fbabfeb2dc0b1210) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f43db28c029f7a1826a409dadd2c17d') in 0.061454 seconds 
+  Import took 0.064795 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000405 seconds.
+  path: Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Environment/Tree Stump.prefab
+  artifactKey: Guid(04ee43a785d3d464aa5e63a85e523e77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Environment/Tree Stump.prefab using Guid(04ee43a785d3d464aa5e63a85e523e77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3793e246fda419f0b82527c439c08110') in 0.037176 seconds 
+  Import took 0.041364 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000345 seconds.
+  path: Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Environment/Rock 1.prefab
+  artifactKey: Guid(48daecd026f95834c9ac99320c663721) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Environment/Rock 1.prefab using Guid(48daecd026f95834c9ac99320c663721) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc31a211d3f7b6f8e533ff94ce660400') in 0.057466 seconds 
+  Import took 0.060443 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000451 seconds.
+  path: Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Environment/Fence 1.prefab
+  artifactKey: Guid(d295a6742d8df4b4c952bea5cf59b793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Environment/Fence 1.prefab using Guid(d295a6742d8df4b4c952bea5cf59b793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52ce7324301e384f232dba403d1fcb39') in 0.043685 seconds 
+  Import took 0.047200 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000312 seconds.
+  path: Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Environment/Campfire 2.prefab
+  artifactKey: Guid(b47113980d729d1468987ba381d7e8cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Environment/Campfire 2.prefab using Guid(b47113980d729d1468987ba381d7e8cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '940866a23a7a22d428e3cbad43025595') in 0.024022 seconds 
+  Import took 0.028326 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000319 seconds.
+  path: Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Environment/Rock 2.prefab
+  artifactKey: Guid(f562f5e0e9d359a4499d2d5e86b3bed4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Environment/Rock 2.prefab using Guid(f562f5e0e9d359a4499d2d5e86b3bed4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '019290e7a322ff050489a604f5e79fd6') in 0.024984 seconds 
+  Import took 0.030756 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000371 seconds.
+  path: Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Environment/Stone Path.prefab
+  artifactKey: Guid(36d8f7e7b09f7b04c85b009a7e1b03c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Environment/Stone Path.prefab using Guid(36d8f7e7b09f7b04c85b009a7e1b03c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd129037b90e34f1aac7a04bf5964d00') in 0.021302 seconds 
+  Import took 0.026670 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000412 seconds.
+  path: Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Environment/Tree Bare 1.prefab
+  artifactKey: Guid(4aff90da649b5f04c8aceacef1fdd9f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Environment/Tree Bare 1.prefab using Guid(4aff90da649b5f04c8aceacef1fdd9f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24cc667c06ad9e955a8075d9003fccf8') in 0.023675 seconds 
+  Import took 0.029702 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000470 seconds.
+  path: Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Environment/Fence 3.prefab
+  artifactKey: Guid(da2fc35f260361746b2548374fe38c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Environment/Fence 3.prefab using Guid(da2fc35f260361746b2548374fe38c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '490050d43aa7af72d4f4fff9990da107') in 0.024156 seconds 
+  Import took 0.029096 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000431 seconds.
+  path: Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Environment/Fence 2.prefab
+  artifactKey: Guid(852a8e670eca1704fb4bac4b99ed785c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Environment/Fence 2.prefab using Guid(852a8e670eca1704fb4bac4b99ed785c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05ec58ca43d987ad0b947be97683718a') in 0.022628 seconds 
+  Import took 0.028959 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Environment/Tree 1.prefab
+  artifactKey: Guid(64b404ebb49529e40a124c9c74a946fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Environment/Tree 1.prefab using Guid(64b404ebb49529e40a124c9c74a946fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8987469b634b26a64916a986ed15a521') in 0.025953 seconds 
+  Import took 0.031465 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Environment/Rock 3.prefab
+  artifactKey: Guid(e6e9e65efc943fb45b9c1a4e8f13e8cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Environment/Rock 3.prefab using Guid(e6e9e65efc943fb45b9c1a4e8f13e8cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5e80317b3c0ad9b19c39aaa762c311d') in 0.024283 seconds 
+  Import took 0.029719 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000503 seconds.
+  path: Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Environment/Tree 3.prefab
+  artifactKey: Guid(6af59ef3df1e29240a7cc32a93465664) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Environment/Tree 3.prefab using Guid(6af59ef3df1e29240a7cc32a93465664) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91c3d14f50e43c3fd8285f446b3fdbdc') in 0.024427 seconds 
+  Import took 0.029651 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000332 seconds.
+  path: Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Environment/Tree 2.prefab
+  artifactKey: Guid(f6e3fa9183dcf784698ece3ef1b4797b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Environment/Tree 2.prefab using Guid(f6e3fa9183dcf784698ece3ef1b4797b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61cf2b8218bb95d8eb77ec5eb9f1c52b') in 0.027714 seconds 
+  Import took 0.032849 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Environment/Tree Bare 2.prefab
+  artifactKey: Guid(c86636d22380b3e42bbeafa54fdc480d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Environment/Tree Bare 2.prefab using Guid(c86636d22380b3e42bbeafa54fdc480d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9615a1ae917677f62f44e0013c02f1b6') in 0.024402 seconds 
+  Import took 0.028573 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.921437 seconds.
+  path: Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Props
+  artifactKey: Guid(d91aa9b624fac2e489be064d998ba714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Props using Guid(d91aa9b624fac2e489be064d998ba714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7be66ba63bc0d0b826a93b02b93486d8') in 0.008743 seconds 
+  Import took 0.012808 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.047473 seconds.
+  path: Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Props/Anvil.prefab
+  artifactKey: Guid(8324e320aa7c9274d8a58e6774970d61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Props/Anvil.prefab using Guid(8324e320aa7c9274d8a58e6774970d61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77dd22c67a8fa6f05e25070fb34c5144') in 0.016300 seconds 
+  Import took 0.019191 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000346 seconds.
+  path: Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Props/Torch Holder.prefab
+  artifactKey: Guid(634ed5069bad71b45af26617b90a3c0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Props/Torch Holder.prefab using Guid(634ed5069bad71b45af26617b90a3c0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92caa1dd9814e88c88041d1c9eeee740') in 0.043464 seconds 
+  Import took 0.046689 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000365 seconds.
+  path: Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Props/Box.prefab
+  artifactKey: Guid(e22e6e65f27d64f4eab80d87ef78373c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Props/Box.prefab using Guid(e22e6e65f27d64f4eab80d87ef78373c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c2151947865eabaacf70cadbadbf657') in 0.023642 seconds 
+  Import took 0.027206 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000606 seconds.
+  path: Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Props/Bucket Empty.prefab
+  artifactKey: Guid(d4457c2b2a471984b83b9dc0cd1ba6cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Props/Bucket Empty.prefab using Guid(d4457c2b2a471984b83b9dc0cd1ba6cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '939c1186eeec7ce6d94a30f3eca0655f') in 0.025854 seconds 
+  Import took 0.031026 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000464 seconds.
+  path: Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Props/Wood Bridge.prefab
+  artifactKey: Guid(a8dbf18f25215974193470837673cf1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Props/Wood Bridge.prefab using Guid(a8dbf18f25215974193470837673cf1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60e09b66295156c7650e94007acd965d') in 0.022508 seconds 
+  Import took 0.026986 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000318 seconds.
+  path: Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Props/Torch.prefab
+  artifactKey: Guid(49dc3782c29983a478dfc1b5de7d5e43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Props/Torch.prefab using Guid(49dc3782c29983a478dfc1b5de7d5e43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5afa4a39f054ec82b9d42e76be153a2e') in 0.028612 seconds 
+  Import took 0.034631 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000592 seconds.
+  path: Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Props/Tool.prefab
+  artifactKey: Guid(caca0927a67fc2b4bb3b7090c656859b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Props/Tool.prefab using Guid(caca0927a67fc2b4bb3b7090c656859b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72ff001a8b98853a325ffcde8d603ba7') in 0.027264 seconds 
+  Import took 0.035021 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000347 seconds.
+  path: Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Props/Weapon Stand.prefab
+  artifactKey: Guid(a153e445811cb3343b65ede555f68a25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Props/Weapon Stand.prefab using Guid(a153e445811cb3343b65ede555f68a25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a602c0a53551ec671bdd7c9ae7309a1a') in 0.022354 seconds 
+  Import took 0.026147 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Props/Barrel.prefab
+  artifactKey: Guid(de2803cb1c5b5d448acfa608090e0942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Props/Barrel.prefab using Guid(de2803cb1c5b5d448acfa608090e0942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff658efc3ea6f6fd75d63183038f55cc') in 0.026202 seconds 
+  Import took 0.030211 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Props/Bucket Full.prefab
+  artifactKey: Guid(eb4dc3a2944c06042bf5f708f8c19710) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Props/Bucket Full.prefab using Guid(eb4dc3a2944c06042bf5f708f8c19710) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c25209c8e856321ea1d5048a492fd923') in 0.020850 seconds 
+  Import took 0.025873 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000316 seconds.
+  path: Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Props/Cauldron Full.prefab
+  artifactKey: Guid(f025436ff163a2a42bad50d9ccc6684e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Props/Cauldron Full.prefab using Guid(f025436ff163a2a42bad50d9ccc6684e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b22f223474f5eadaba742c9081c7fa07') in 0.021470 seconds 
+  Import took 0.026722 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000318 seconds.
+  path: Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Props/Cauldron Empty.prefab
+  artifactKey: Guid(349c9c0a38c198f48b7d42032bb4d5ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Props/Cauldron Empty.prefab using Guid(349c9c0a38c198f48b7d42032bb4d5ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55a1d53a02b0182744ad3729f2bce974') in 0.022249 seconds 
+  Import took 0.027131 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Props/Ladder.prefab
+  artifactKey: Guid(10c03faa64fc0804980e2f9d25fdb727) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Props/Ladder.prefab using Guid(10c03faa64fc0804980e2f9d25fdb727) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cf2cab5a9ba0763df0d61232c32ed7c') in 0.018959 seconds 
+  Import took 0.023327 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000347 seconds.
+  path: Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Props/Log.prefab
+  artifactKey: Guid(d4ae18d5827c79341b658da20340afa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Props/Log.prefab using Guid(d4ae18d5827c79341b658da20340afa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b563c97f1bccc54f122f68ac8f2009d') in 0.021470 seconds 
+  Import took 0.026776 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Props/Hammer.prefab
+  artifactKey: Guid(49cf7b17334187f44910d74da39af0f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Props/Hammer.prefab using Guid(49cf7b17334187f44910d74da39af0f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95364891632096ca030d6e97b1f17a5f') in 0.025383 seconds 
+  Import took 0.029682 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.773339 seconds.
+  path: Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Debris
+  artifactKey: Guid(0c1fcfe031d12284fa1bcb25132f601f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Debris using Guid(0c1fcfe031d12284fa1bcb25132f601f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '901b1ca664fcf2f063b54fd24380cb64') in 0.010340 seconds 
+  Import took 0.014956 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.038403 seconds.
+  path: Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Debris/Stone Debris 1.prefab
+  artifactKey: Guid(3dfa49e4a64548b4d9aad356ce103be9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Debris/Stone Debris 1.prefab using Guid(3dfa49e4a64548b4d9aad356ce103be9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e40a8083808fa0ce0808ec338381671b') in 0.060032 seconds 
+  Import took 0.063364 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000376 seconds.
+  path: Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Debris/Stone Debris 2.prefab
+  artifactKey: Guid(06743076781cc144698130d4029a246b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Debris/Stone Debris 2.prefab using Guid(06743076781cc144698130d4029a246b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2047f641eac2bf5bc166a9c35ce357b6') in 0.055409 seconds 
+  Import took 0.059069 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000406 seconds.
+  path: Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Debris/Wood Debris 1.prefab
+  artifactKey: Guid(4cc6b17a6797b08489fc4078563a9097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Debris/Wood Debris 1.prefab using Guid(4cc6b17a6797b08489fc4078563a9097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd74332eb66efc7cf779032ecf8d6f3cd') in 0.021294 seconds 
+  Import took 0.026860 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000416 seconds.
+  path: Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Debris/Stone Debris 3.prefab
+  artifactKey: Guid(8e7ce41503d2bd5439a559ccfb103acf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Debris/Stone Debris 3.prefab using Guid(8e7ce41503d2bd5439a559ccfb103acf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0b59949b98d7bba1fd71348083728b3') in 0.023605 seconds 
+  Import took 0.027563 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Debris/Wood Debris 2.prefab
+  artifactKey: Guid(0d2b4bd44f6654a4891a0b008c5decf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Debris/Wood Debris 2.prefab using Guid(0d2b4bd44f6654a4891a0b008c5decf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21f45124d61f0a1ffed749e455027e2e') in 0.028846 seconds 
+  Import took 0.034321 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000605 seconds.
+  path: Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Debris/Wood Debris 4.prefab
+  artifactKey: Guid(69d871a9a3a7ed64ca6fe6c613b0ee4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Debris/Wood Debris 4.prefab using Guid(69d871a9a3a7ed64ca6fe6c613b0ee4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7805cc86c8e1ac6456d9b3f49abb3a9c') in 0.020147 seconds 
+  Import took 0.026287 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000345 seconds.
+  path: Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Debris/Wood Debris 3.prefab
+  artifactKey: Guid(f083c3afb95d415428666530cc8956af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Debris/Wood Debris 3.prefab using Guid(f083c3afb95d415428666530cc8956af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18d9f7f001028e137d66cb99d19ccb44') in 0.023675 seconds 
+  Import took 0.028504 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000460 seconds.
+  path: Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Debris/Stone Debris 5.prefab
+  artifactKey: Guid(e8707333f6dbf56479c491dc0701e4a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Debris/Stone Debris 5.prefab using Guid(e8707333f6dbf56479c491dc0701e4a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24a54f1731e31ed8e9153939ab915155') in 0.021929 seconds 
+  Import took 0.026814 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Debris/Stone Debris 4.prefab
+  artifactKey: Guid(c2cc1b8565900c94fa3aded73e73b3fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Debris/Stone Debris 4.prefab using Guid(c2cc1b8565900c94fa3aded73e73b3fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34f8002090ba1b526ece3440b2507280') in 0.022895 seconds 
+  Import took 0.028692 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000454 seconds.
+  path: Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Debris/Wood Debris 5.prefab
+  artifactKey: Guid(17ec419cb6005614d8f51e65a3ed8d75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Debris/Wood Debris 5.prefab using Guid(17ec419cb6005614d8f51e65a3ed8d75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b19c9e130ae7db15b0e051a5733fb957') in 0.024233 seconds 
+  Import took 0.029385 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.974212 seconds.
+  path: Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Buildings
+  artifactKey: Guid(5643a7a0a1d0692459acff28fe89f5d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Buildings using Guid(5643a7a0a1d0692459acff28fe89f5d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d731fb0c3984cb129a46cd4e8dd9b49') in 0.009953 seconds 
+  Import took 0.013057 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.032369 seconds.
+  path: Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Buildings/Big Tent Blue.prefab
+  artifactKey: Guid(ba24645415b6de642b046ab85f8a45a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Buildings/Big Tent Blue.prefab using Guid(ba24645415b6de642b046ab85f8a45a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1bb28b4ad318abd521125ab77c0468b') in 0.023710 seconds 
+  Import took 0.027055 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000418 seconds.
+  path: Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Buildings/Jail Building.prefab
+  artifactKey: Guid(6525b438104c10b4c98bfa714b34bf91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Buildings/Jail Building.prefab using Guid(6525b438104c10b4c98bfa714b34bf91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84539af3957935ad81ba214b361e3253') in 0.040952 seconds 
+  Import took 0.044586 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000387 seconds.
+  path: Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Buildings/Blacksmith Area.prefab
+  artifactKey: Guid(f6ec9fa16bc3f3047ae2227e7dfa36fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Buildings/Blacksmith Area.prefab using Guid(f6ec9fa16bc3f3047ae2227e7dfa36fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31b09de2d3a320633ca22ea82fe338b7') in 0.032678 seconds 
+  Import took 0.036413 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000336 seconds.
+  path: Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Buildings/Big Tent Orange.prefab
+  artifactKey: Guid(2bb780a367a44d745985f04ff0a6d82d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Buildings/Big Tent Orange.prefab using Guid(2bb780a367a44d745985f04ff0a6d82d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99086fda1ab72a7cc1c6b88b6b5a2305') in 0.030751 seconds 
+  Import took 0.034756 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000332 seconds.
+  path: Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Buildings/Big Tent Red.prefab
+  artifactKey: Guid(bcb5133fea38e774397255cae15ea7ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Buildings/Big Tent Red.prefab using Guid(bcb5133fea38e774397255cae15ea7ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e29719942effd92a69de4e125fd9d1f') in 0.023176 seconds 
+  Import took 0.029038 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Buildings/Small Tent 2.prefab
+  artifactKey: Guid(02c6b9e7de516f2438314a034fe23f20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Buildings/Small Tent 2.prefab using Guid(02c6b9e7de516f2438314a034fe23f20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e71c3231e3e1d4aa91818e4df84b0bf0') in 0.021636 seconds 
+  Import took 0.027704 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000398 seconds.
+  path: Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Buildings/Small Tent 1.prefab
+  artifactKey: Guid(dc4902c8a8f8f3240aa8474193367070) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Buildings/Small Tent 1.prefab using Guid(dc4902c8a8f8f3240aa8474193367070) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25c544ceae81b9e56df2cea3a2295cc4') in 0.027325 seconds 
+  Import took 0.033569 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000325 seconds.
+  path: Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Buildings/Roof.prefab
+  artifactKey: Guid(6e92c4309d4c1664889c5b8de1414d3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Buildings/Roof.prefab using Guid(6e92c4309d4c1664889c5b8de1414d3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fc6152a5422bca490b9652477d73ca5') in 0.021858 seconds 
+  Import took 0.027892 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.617080 seconds.
+  path: Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Buildings/Walls
+  artifactKey: Guid(5f162769953be7e46bac90fbd4e043bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Buildings/Walls using Guid(5f162769953be7e46bac90fbd4e043bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc741b087057bd4475e20d5745efc951') in 0.010152 seconds 
+  Import took 0.013483 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.069641 seconds.
+  path: Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Buildings/Walls/Stone Gates.prefab
+  artifactKey: Guid(ecf0e240b717eac49b350e6bbaa98e77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Buildings/Walls/Stone Gates.prefab using Guid(ecf0e240b717eac49b350e6bbaa98e77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb58bb49a8a06080b38183a0cbdd9011') in 0.017213 seconds 
+  Import took 0.021337 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000482 seconds.
+  path: Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Buildings/Walls/Stone Wall 5.prefab
+  artifactKey: Guid(509406478466f2142a7b757139f01063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Buildings/Walls/Stone Wall 5.prefab using Guid(509406478466f2142a7b757139f01063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bb7fb1118e2935a5dbd6314ed14395f') in 0.018204 seconds 
+  Import took 0.021275 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000369 seconds.
+  path: Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Buildings/Walls/Stone Wall 4.prefab
+  artifactKey: Guid(36605810a346476488169e9cd1c1f9df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Buildings/Walls/Stone Wall 4.prefab using Guid(36605810a346476488169e9cd1c1f9df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'caf62b73375b590609c9c95cf0a8b16d') in 0.033336 seconds 
+  Import took 0.037454 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000344 seconds.
+  path: Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Buildings/Walls/Stone Wall 2.prefab
+  artifactKey: Guid(ca81786f45794b041a38678f923f9cdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Buildings/Walls/Stone Wall 2.prefab using Guid(ca81786f45794b041a38678f923f9cdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7598463bee04c49ddbfd166fc5ce4f44') in 0.023533 seconds 
+  Import took 0.027456 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000335 seconds.
+  path: Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Buildings/Walls/Stone Wall 1.prefab
+  artifactKey: Guid(f0b9c2a9cd648c0438e386de5e5e0710) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Buildings/Walls/Stone Wall 1.prefab using Guid(f0b9c2a9cd648c0438e386de5e5e0710) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e81997ba7811f32d231bcac292a038a7') in 0.023558 seconds 
+  Import took 0.028307 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000368 seconds.
+  path: Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Buildings/Walls/Stone Wall 3.prefab
+  artifactKey: Guid(2a5b838373a77634780f8f0c5d525720) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Buildings/Walls/Stone Wall 3.prefab using Guid(2a5b838373a77634780f8f0c5d525720) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eea1856ae344c75dd1b0bd9ab11dd94f') in 0.021553 seconds 
+  Import took 0.025234 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000334 seconds.
+  path: Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Buildings/Walls/Wood Wall 3.prefab
+  artifactKey: Guid(33ec5fafd67c138469c6592e31a4baf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Buildings/Walls/Wood Wall 3.prefab using Guid(33ec5fafd67c138469c6592e31a4baf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16fa8c1e9a1a0ae95bfc04533e62325e') in 0.024452 seconds 
+  Import took 0.027948 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000360 seconds.
+  path: Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Buildings/Walls/Wood Gates.prefab
+  artifactKey: Guid(2bf632440a0123e49b2604001afd9b87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Buildings/Walls/Wood Gates.prefab using Guid(2bf632440a0123e49b2604001afd9b87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '612c5129948a887272b4f3917f2d8493') in 0.022019 seconds 
+  Import took 0.025724 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Buildings/Walls/Wood Wall 2.prefab
+  artifactKey: Guid(da28f423a072c384b8aacb6f78809492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Buildings/Walls/Wood Wall 2.prefab using Guid(da28f423a072c384b8aacb6f78809492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9626a7603794b649d06d08e8a68339d') in 0.024323 seconds 
+  Import took 0.029290 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Buildings/Walls/Wood Wall 1.prefab
+  artifactKey: Guid(b4c136270da7bfa42ad969e45f30476e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Buildings/Walls/Wood Wall 1.prefab using Guid(b4c136270da7bfa42ad969e45f30476e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fd0e8cdb465db0c5c0e1a3316392fc1') in 0.024115 seconds 
+  Import took 0.035537 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 664.231869 seconds.
+  path: Assets/External/Ground textures pack/Grass 02/Grass pattern 02.mat
+  artifactKey: Guid(15654a743eccf384fb2312048db767f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Ground textures pack/Grass 02/Grass pattern 02.mat using Guid(15654a743eccf384fb2312048db767f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60d3ff0c1e3e2a9cb58fe3b2f4c397af') in 0.053054 seconds 
+  Import took 0.056982 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 387.519558 seconds.
+  path: Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Siege Machines
+  artifactKey: Guid(72589b443a9fe3c449028e15b1468f0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Siege Machines using Guid(72589b443a9fe3c449028e15b1468f0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bc9ccf04ad4a7eecfe584c11a09cafc') in 0.010131 seconds 
+  Import took 0.014015 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.031849 seconds.
+  path: Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Siege Machines/Ballista.prefab
+  artifactKey: Guid(bb46a1ca53c425e4b953cf428f96894c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Siege Machines/Ballista.prefab using Guid(bb46a1ca53c425e4b953cf428f96894c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6d8cd7e8c8da5f347ddade5df6f42cb') in 0.064883 seconds 
+  Import took 0.068733 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000365 seconds.
+  path: Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Siege Machines/Ram.prefab
+  artifactKey: Guid(e82ba31330c201740bb70bc0c3dfa69e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Siege Machines/Ram.prefab using Guid(e82ba31330c201740bb70bc0c3dfa69e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9863c7c49ed57d53d731b364f5d3e016') in 0.058785 seconds 
+  Import took 0.062640 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000360 seconds.
+  path: Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Siege Machines/Catapult.prefab
+  artifactKey: Guid(a288f47bff5cc9c4cb0dc3522a257663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Siege Machines/Catapult.prefab using Guid(a288f47bff5cc9c4cb0dc3522a257663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b23c0a6b1d54390f51242c1eb079a5c2') in 0.036916 seconds 
+  Import took 0.040296 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000479 seconds.
+  path: Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Siege Machines/Siege Tower.prefab
+  artifactKey: Guid(272cdcf1cd87acf48be22f821277cd3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Siege Machines/Siege Tower.prefab using Guid(272cdcf1cd87acf48be22f821277cd3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ce2611dc5e1ad3c07f56858fbeb58f6') in 0.087806 seconds 
+  Import took 0.090524 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000488 seconds.
+  path: Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Siege Machines/Trebuchet.prefab
+  artifactKey: Guid(a8dea347d6ab28249930d6912fdc51ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Siege Machines/Trebuchet.prefab using Guid(a8dea347d6ab28249930d6912fdc51ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f55c04da63e0129800a7cd72a1ddb99a') in 0.031163 seconds 
+  Import took 0.034360 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 357.351868 seconds.
+  path: Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Projectiles
+  artifactKey: Guid(a99678cd921c00844beee0a46d674af8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Projectiles using Guid(a99678cd921c00844beee0a46d674af8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70c2ed16621eb0b392519d0137898e7b') in 0.010975 seconds 
+  Import took 0.014601 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.069128 seconds.
+  path: Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Projectiles/Fire Projectile.prefab
+  artifactKey: Guid(78c688a068e060e4284471cd5f057a3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Projectiles/Fire Projectile.prefab using Guid(78c688a068e060e4284471cd5f057a3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3f91e7a7603aa71731affa15df03d51') in 0.022542 seconds 
+  Import took 0.026000 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000456 seconds.
+  path: Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Projectiles/Stone Projectile.prefab
+  artifactKey: Guid(17cea915053c7f840a2b953b6d3d958f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Projectiles/Stone Projectile.prefab using Guid(17cea915053c7f840a2b953b6d3d958f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5033417953aba7814dee06cebd0bf107') in 0.024302 seconds 
+  Import took 0.028094 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.221725 seconds.
+  path: Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Weapons
+  artifactKey: Guid(0855103afa16602499692a4f3bda0bb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Weapons using Guid(0855103afa16602499692a4f3bda0bb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '579d339aaf522c689aae19ee7798bf3d') in 0.010873 seconds 
+  Import took 0.014323 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.045649 seconds.
+  path: Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Weapons/Arrow.prefab
+  artifactKey: Guid(66e707a35b723d4488b5a38194b95194) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Weapons/Arrow.prefab using Guid(66e707a35b723d4488b5a38194b95194) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a390bae0da8e41f6522969cc1fb4e31a') in 0.052425 seconds 
+  Import took 0.056890 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000361 seconds.
+  path: Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Weapons/Sword.prefab
+  artifactKey: Guid(0a044744e17205a4aba090a4e4e666b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Weapons/Sword.prefab using Guid(0a044744e17205a4aba090a4e4e666b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42e545c4ef2f22aa24378a7bd3cd5a1b') in 0.028401 seconds 
+  Import took 0.031272 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Weapons/Shield Round Red.prefab
+  artifactKey: Guid(4090db62bef592b41a8826e5c2c24eee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Weapons/Shield Round Red.prefab using Guid(4090db62bef592b41a8826e5c2c24eee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70a7a637480974c7dbdf0455148f8a8a') in 0.041172 seconds 
+  Import took 0.044652 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000408 seconds.
+  path: Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Weapons/Shield Round with arrows.prefab
+  artifactKey: Guid(53d5ad6659273174d883216d37bb6846) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Weapons/Shield Round with arrows.prefab using Guid(53d5ad6659273174d883216d37bb6846) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd35e4395bf389d27b7287d01601199ab') in 0.022403 seconds 
+  Import took 0.028382 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000368 seconds.
+  path: Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Weapons/Ballista Harpoon 1.prefab
+  artifactKey: Guid(23c37562526242c46922d8a70fc25cf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Weapons/Ballista Harpoon 1.prefab using Guid(23c37562526242c46922d8a70fc25cf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24809f3740dc201cb5347ea9b80f06fc') in 0.027923 seconds 
+  Import took 0.031735 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Weapons/Shield Round Blue.prefab
+  artifactKey: Guid(7a9b3c839ccd7c5408c848b1f7afb6e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Weapons/Shield Round Blue.prefab using Guid(7a9b3c839ccd7c5408c848b1f7afb6e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'affd62ff7eb89dede3e5d9b34e93663a') in 0.026696 seconds 
+  Import took 0.030151 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Weapons/Shield Round Red with arrows.prefab
+  artifactKey: Guid(fb9b1893406ddf64db9f46d2897a87d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Weapons/Shield Round Red with arrows.prefab using Guid(fb9b1893406ddf64db9f46d2897a87d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d9fb457e80c964532c6e324a460ecdf') in 0.022878 seconds 
+  Import took 0.027459 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000347 seconds.
+  path: Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Weapons/Shield Round.prefab
+  artifactKey: Guid(7040cde7c19467a41a5b02046f5062a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Weapons/Shield Round.prefab using Guid(7040cde7c19467a41a5b02046f5062a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c6c06da9e37e8a61ea695989350081d') in 0.021661 seconds 
+  Import took 0.025636 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Weapons/Shield Round Blue with arrows.prefab
+  artifactKey: Guid(5d1ea98ab59a9e842b3a840707ca67c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Weapons/Shield Round Blue with arrows.prefab using Guid(5d1ea98ab59a9e842b3a840707ca67c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1de2ede9f08f99232d9d7973376d2ee0') in 0.027849 seconds 
+  Import took 0.031331 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 124.818397 seconds.
+  path: Assets/External/Low Poly Castle Siege Pack/Prefabs/Particle Effects
+  artifactKey: Guid(d6912301bb1781849bfbd6ca5fa6c4f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Low Poly Castle Siege Pack/Prefabs/Particle Effects using Guid(d6912301bb1781849bfbd6ca5fa6c4f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a3ee27c68c3a1fd4f825dc0b3e47266') in 0.008308 seconds 
+  Import took 0.011455 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.049952 seconds.
+  path: Assets/External/Low Poly Castle Siege Pack/Prefabs/Particle Effects/Flame Particles.prefab
+  artifactKey: Guid(7e74e3495c43a454dacecbdb3f914ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Low Poly Castle Siege Pack/Prefabs/Particle Effects/Flame Particles.prefab using Guid(7e74e3495c43a454dacecbdb3f914ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70d69a7b17009b72fdead78e1b52d3c1') in 0.070359 seconds 
+  Import took 0.073719 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000425 seconds.
+  path: Assets/External/Low Poly Castle Siege Pack/Prefabs/Particle Effects/Stone Debris Particles.prefab
+  artifactKey: Guid(e3811f953a5c964489be778f64a1012d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Low Poly Castle Siege Pack/Prefabs/Particle Effects/Stone Debris Particles.prefab using Guid(e3811f953a5c964489be778f64a1012d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62520150c7691939b064db162f5d6ead') in 0.030418 seconds 
+  Import took 0.033248 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000352 seconds.
+  path: Assets/External/Low Poly Castle Siege Pack/Prefabs/Particle Effects/Spark Particles.prefab
+  artifactKey: Guid(a4e786a2b44fd324fa55c15a50501450) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Low Poly Castle Siege Pack/Prefabs/Particle Effects/Spark Particles.prefab using Guid(a4e786a2b44fd324fa55c15a50501450) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dff028660c070e8b070985b1e1b1e180') in 0.024508 seconds 
+  Import took 0.027856 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/External/Low Poly Castle Siege Pack/Prefabs/Particle Effects/Smoke Particles.prefab
+  artifactKey: Guid(184762070193fea46b3bbf23a88d1bb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Low Poly Castle Siege Pack/Prefabs/Particle Effects/Smoke Particles.prefab using Guid(184762070193fea46b3bbf23a88d1bb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad4ba09b4a4a0a9053fa86ac7978702b') in 0.023651 seconds 
+  Import took 0.028647 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000471 seconds.
+  path: Assets/External/Low Poly Castle Siege Pack/Prefabs/Particle Effects/Wood Debris Particles.prefab
+  artifactKey: Guid(012e58c1290e6914990fe88ae607cd8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Low Poly Castle Siege Pack/Prefabs/Particle Effects/Wood Debris Particles.prefab using Guid(012e58c1290e6914990fe88ae607cd8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cef58d3fd49929b10504f07e0e4fa4f9') in 0.025517 seconds 
+  Import took 0.030339 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 427.311897 seconds.
+  path: Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Buildings/Watchtowers
+  artifactKey: Guid(2d7f04296e50a22478ff2456afd5e784) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Buildings/Watchtowers using Guid(2d7f04296e50a22478ff2456afd5e784) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdb6ba43c4a83719867ddc225b5969ed') in 0.009328 seconds 
+  Import took 0.014063 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.037460 seconds.
+  path: Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Buildings/Watchtowers/Burning Wood Watchtower.prefab
+  artifactKey: Guid(d89317b9d934aa945942e46ca745e4ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Buildings/Watchtowers/Burning Wood Watchtower.prefab using Guid(d89317b9d934aa945942e46ca745e4ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc056606ed6149272eb375cb8d491da1') in 0.041976 seconds 
+  Import took 0.045296 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000465 seconds.
+  path: Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Buildings/Watchtowers/Stone Watchtower Damaged 1.prefab
+  artifactKey: Guid(f0e32bdd3f21d6e45aba695951d29e27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Buildings/Watchtowers/Stone Watchtower Damaged 1.prefab using Guid(f0e32bdd3f21d6e45aba695951d29e27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e906a25335c8d54e2c304fc8e0b32ede') in 0.024501 seconds 
+  Import took 0.028462 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000454 seconds.
+  path: Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Buildings/Watchtowers/Stone Watchtower Damaged 2.prefab
+  artifactKey: Guid(83321fb8348df874fbe68b60feb2128d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Buildings/Watchtowers/Stone Watchtower Damaged 2.prefab using Guid(83321fb8348df874fbe68b60feb2128d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e522ad5a8f505c1e6c5893c6a7b7ea61') in 0.035048 seconds 
+  Import took 0.037699 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000459 seconds.
+  path: Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Buildings/Watchtowers/Wood Watchtower 2.prefab
+  artifactKey: Guid(f9d94a399b759c0449f0d4ef3750efde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Buildings/Watchtowers/Wood Watchtower 2.prefab using Guid(f9d94a399b759c0449f0d4ef3750efde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36040f58c63094249a9305ce1e1fc10b') in 0.025895 seconds 
+  Import took 0.029061 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Buildings/Watchtowers/Wood Watchtower Damaged 1.prefab
+  artifactKey: Guid(d247cacdc605be44384aac9bca7ec16f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Buildings/Watchtowers/Wood Watchtower Damaged 1.prefab using Guid(d247cacdc605be44384aac9bca7ec16f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38839234ba89151e56c00695c5ccf54a') in 0.023857 seconds 
+  Import took 0.027503 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000326 seconds.
+  path: Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Buildings/Watchtowers/Stone Watchtower Damaged 3.prefab
+  artifactKey: Guid(46f2c553ca77a5e43bd9f02e353d2f03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Buildings/Watchtowers/Stone Watchtower Damaged 3.prefab using Guid(46f2c553ca77a5e43bd9f02e353d2f03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9143d17f6f78bb0b2f8ae83852e9b47d') in 0.022396 seconds 
+  Import took 0.026778 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000374 seconds.
+  path: Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Buildings/Watchtowers/Wood Watchtower Damaged 3.prefab
+  artifactKey: Guid(b36f19b3fddd9684a82069fc91d1f4a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Buildings/Watchtowers/Wood Watchtower Damaged 3.prefab using Guid(b36f19b3fddd9684a82069fc91d1f4a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7426ec9194a29481789c13b6b318139c') in 0.023783 seconds 
+  Import took 0.027816 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Buildings/Watchtowers/Wood Watchtower Damaged 2.prefab
+  artifactKey: Guid(91581b7c655306347bdc1a5f27b138fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Buildings/Watchtowers/Wood Watchtower Damaged 2.prefab using Guid(91581b7c655306347bdc1a5f27b138fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c84181bdc74ef370d2a2fcb69ae59cb8') in 0.021883 seconds 
+  Import took 0.026641 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000342 seconds.
+  path: Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Buildings/Watchtowers/Stone Tower Round.prefab
+  artifactKey: Guid(cc5b36acce6532f478dcbc6418a52d68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Buildings/Watchtowers/Stone Tower Round.prefab using Guid(cc5b36acce6532f478dcbc6418a52d68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd17216c042a1c6e8a3d1fe60f0dda05e') in 0.023702 seconds 
+  Import took 0.026901 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Buildings/Watchtowers/Stone Watchtower.prefab
+  artifactKey: Guid(9b9c0b10fe0d99145879926e2e073076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Buildings/Watchtowers/Stone Watchtower.prefab using Guid(9b9c0b10fe0d99145879926e2e073076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1bead67689da6e67b9ca0161b9e8cae') in 0.023106 seconds 
+  Import took 0.026767 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Buildings/Watchtowers/Wood Watchtower 1.prefab
+  artifactKey: Guid(1535858cd6f21d7429ffc77fc801c22d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Low Poly Castle Siege Pack/Prefabs/Models/Buildings/Watchtowers/Wood Watchtower 1.prefab using Guid(1535858cd6f21d7429ffc77fc801c22d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c534f08b95b4f19a6aba00e422eeec32') in 0.022244 seconds 
+  Import took 0.026909 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1573.097074 seconds.
+  path: Assets/Weapons_ChamferZone
+  artifactKey: Guid(643c66a338ac2b141a83cd6ab3f74fe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Weapons_ChamferZone using Guid(643c66a338ac2b141a83cd6ab3f74fe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcf54b34515dac0c9d1f75df4f3fc1c0') in 0.009378 seconds 
+  Import took 0.013703 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.731129 seconds.
+  path: Assets/Weapons_ChamferZone/AKM
+  artifactKey: Guid(a2d2f02336d84f141b9cf5e9e039d87e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Weapons_ChamferZone/AKM using Guid(a2d2f02336d84f141b9cf5e9e039d87e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '614b8386319c6e2d3dd7513ef54fc9dd') in 0.009338 seconds 
+  Import took 0.012375 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.703343 seconds.
+  path: Assets/Weapons_ChamferZone/AKM/WPN_AKM.FBX
+  artifactKey: Guid(75dcb58506746b84db987c4ce01e99b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Weapons_ChamferZone/AKM/WPN_AKM.FBX using Guid(75dcb58506746b84db987c4ce01e99b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32c9eb0d8860fbd5d28f4155591fb6a0') in 0.249952 seconds 
+  Import took 0.254054 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000328 seconds.
+  path: Assets/Weapons_ChamferZone/AKM/Materials
+  artifactKey: Guid(72c2debd3db62f340bed4dfcf75d0951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Weapons_ChamferZone/AKM/Materials using Guid(72c2debd3db62f340bed4dfcf75d0951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '407fff2e3e60049271d8a72ff9e540b3') in 0.007679 seconds 
+  Import took 0.010791 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 464.072091 seconds.
+  path: Assets/External/Training_dummy/Animator/Training_dummy-control.controller
+  artifactKey: Guid(868018d82fb6a3d49be1b63b6bb94f4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Training_dummy/Animator/Training_dummy-control.controller using Guid(868018d82fb6a3d49be1b63b6bb94f4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7f07b1a3083979695c5b4ce66183f40') in 0.021200 seconds 
+  Import took 0.024681 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.420491 seconds.
+  path: Assets/External/Training_dummy/Mesh/training_dummy.fbx
+  artifactKey: Guid(63a9ac7cbff5d8f4ab9ff7f2905ed2ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External/Training_dummy/Mesh/training_dummy.fbx using Guid(63a9ac7cbff5d8f4ab9ff7f2905ed2ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2327f2a644d1447dff1e65a37d5d0185') in 0.040879 seconds 
+  Import took 0.044766 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006405 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.375 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1376ms)
+		BeginReloadAssembly (185ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (87ms)
+		EndReloadAssembly (1102ms)
+			LoadAssemblies (121ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (452ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (367ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (98ms)
+				ProcessInitializeOnLoadAttributes (240ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1484 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.7 MB.
+System memory in use after: 87.8 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1989.
+Total: 4.259400 ms (FindLiveObjects: 0.326400 ms CreateObjectMapping: 0.114700 ms MarkObjects: 3.743200 ms  DeleteObjects: 0.073700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 753.659134 seconds.
+  path: Assets/Weapons_ChamferZone/AKM/textures
+  artifactKey: Guid(3629861424762d841bdd5541b6eced13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Weapons_ChamferZone/AKM/textures using Guid(3629861424762d841bdd5541b6eced13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f9816f338d88bf4a7ba019c919cc563') in 0.013966 seconds 
+  Import took 0.017534 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.033054 seconds.
+  path: Assets/Weapons_ChamferZone/AKM/textures/WPNT_AKM_AlbedoTransparency.png
+  artifactKey: Guid(e8741c150d3aedd4d893c590985e87de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Weapons_ChamferZone/AKM/textures/WPNT_AKM_AlbedoTransparency.png using Guid(e8741c150d3aedd4d893c590985e87de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99bffca647d1ac62fa417df66e9d5656') in 0.071833 seconds 
+  Import took 0.075264 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000450 seconds.
+  path: Assets/Weapons_ChamferZone/AKM/textures/WPNT_AKM_Ambient_occlusion.tga
+  artifactKey: Guid(2ce2a710586a5f745835cda588249fd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Weapons_ChamferZone/AKM/textures/WPNT_AKM_Ambient_occlusion.tga using Guid(2ce2a710586a5f745835cda588249fd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f26a7c17d4b4f61b210867faf37a19b6') in 0.020792 seconds 
+  Import took 0.026339 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000365 seconds.
+  path: Assets/Weapons_ChamferZone/AKM/textures/WPNT_AKM_Normal.png
+  artifactKey: Guid(9929057eb949b37449449f6aaa8c06ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Weapons_ChamferZone/AKM/textures/WPNT_AKM_Normal.png using Guid(9929057eb949b37449449f6aaa8c06ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93b9efca688770441ac719cfe1b90dd8') in 0.035884 seconds 
+  Import took 0.039015 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000456 seconds.
+  path: Assets/Weapons_ChamferZone/AKM/textures/WPNT_AKM_MetallicSmoothness.png
+  artifactKey: Guid(dcccb5c5021ad6446842fe6103d06c0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Weapons_ChamferZone/AKM/textures/WPNT_AKM_MetallicSmoothness.png using Guid(dcccb5c5021ad6446842fe6103d06c0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb2216991ceae56eeb8f42b1ce9566a9') in 0.025495 seconds 
+  Import took 0.028590 seconds .
+
+========================================================================
+Received Prepare
+Trying to reload asset but can't find object on disk
+Trying to reload asset but can't find object on disk
+Trying to reload asset but can't find object on disk
+Trying to reload asset but can't find object on disk
+Trying to reload asset but can't find object on disk
+Trying to reload asset but can't find object on disk
+Trying to reload asset but can't find object on disk
+Trying to reload asset but can't find object on disk
+Trying to reload asset but can't find object on disk
+Trying to reload asset but can't find object on disk
+Trying to reload asset but can't find object on disk
+Trying to reload asset but can't find object on disk
+Trying to reload asset but can't find object on disk
+Trying to reload asset but can't find object on disk
+Trying to reload asset but can't find object on disk
+Trying to reload asset but can't find object on disk
+Trying to reload asset but can't find object on disk
+Trying to reload asset but can't find object on disk
+Registering precompiled user dll's ...
+Registered in 0.022575 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.33 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.189 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1190ms)
+		BeginReloadAssembly (165ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (61ms)
+		EndReloadAssembly (947ms)
+			LoadAssemblies (104ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (342ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (347ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (90ms)
+				ProcessInitializeOnLoadAttributes (232ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.36 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1482 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.9 MB.
+System memory in use after: 88.0 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 1991.
+Total: 7.053600 ms (FindLiveObjects: 0.161000 ms CreateObjectMapping: 0.049100 ms MarkObjects: 6.802300 ms  DeleteObjects: 0.039800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
