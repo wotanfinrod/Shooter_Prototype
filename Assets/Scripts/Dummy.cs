@@ -4,16 +4,14 @@ using UnityEngine;
 
 public class Dummy : MonoBehaviour
 {
-    private int healthPoint;
-    public bool isDead;
-
     Animator dummyAnim;
 
+    private int healthPoint;
+    public bool isDead;
 
     void Start()
     {
         dummyAnim = gameObject.GetComponent<Animator>();
-
         isDead = false;
         healthPoint = 100;
     }
@@ -23,15 +21,11 @@ public class Dummy : MonoBehaviour
         healthPoint -= damagePoint;
         if(healthPoint <= 0)
         {
-
             dummyAnim.SetTrigger("dieTrig");
             isDead = true;
             Debug.Log("Dummy is dead");
             healthPoint = 0;
         }
-       
-
-
     }
 
     public void RegenerateDummy()

@@ -4,15 +4,11 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-
-    
-    bool isFiring;
     float fireCounter;
 
     AK47 ak47;
     Deagle deagle;
     Dummy dummy;
-
 
     void Start()
     {
@@ -20,7 +16,6 @@ public class GameManager : MonoBehaviour
         deagle = GameObject.Find("DesertEagle").GetComponent<Deagle>();
         dummy = GameObject.Find("Dummy").GetComponent<Dummy>();
 
-        isFiring = false;
         deagle.gameObject.SetActive(false);
 
     }
@@ -37,12 +32,11 @@ public class GameManager : MonoBehaviour
                 if(deagle.Magazine != 0)
                 {
                     int x = deagle.Fire(fireCounter);
-
-
                 }
-
-
-
+                else
+                {
+                    Debug.Log("Magazine is empty. Reload.");
+                }
             }
         }
 
@@ -51,20 +45,15 @@ public class GameManager : MonoBehaviour
             if (ak47.gameObject.activeSelf)
             {
                 if(ak47.Magazine != 0)
-                { 
-                    
-                    int x = ak47.Fire(fireCounter);
-                    
+                {   
+                    int x = ak47.Fire(fireCounter);                
                     if (x == 2) dummy.TakeDamage(ak47.Damage);
                 }
                 else
                 {
                     Debug.Log("Magazine is empty. Reload.");
                 }
-
             }
-
-
         }
 
         if (Input.GetKeyUp(KeyCode.S))
@@ -72,31 +61,25 @@ public class GameManager : MonoBehaviour
             if (ak47.gameObject.activeSelf) ak47.FireRecoilStop();
             else if (deagle.gameObject.activeSelf) deagle.FireRecoilStop();
 
-            isFiring = false;
         }
 
         else if(Input.GetKeyDown(KeyCode.Space)) //Change the weapon
         {
-            if(ak47.gameObject.activeSelf) //Change to deagle
+            if(ak47.gameObject.activeSelf) //Current was AK47
             {
                 Debug.Log("Active Weapon: Desert Eagle");
                 ak47.gameObject.SetActive(false);
                 deagle.gameObject.SetActive(true);
             }
 
-            else        //Current is Deagle
+            else //Current was Deagle
             {
                 Debug.Log("Active Weapon: AK47");
                 deagle.gameObject.SetActive(false);
                 ak47.gameObject.SetActive(true);
 
             }
-            
-
         }
-
-        
-
 
         else if(Input.GetKeyDown(KeyCode.T)) //Revive the target
         {
@@ -108,9 +91,6 @@ public class GameManager : MonoBehaviour
             if (ak47.gameObject.activeSelf) ak47.Reload();
             else if (deagle.gameObject.activeSelf) deagle.Reload();
         }
-
-
-
     }
 
     public void ResetCounter()

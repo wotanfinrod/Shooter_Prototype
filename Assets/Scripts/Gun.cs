@@ -11,17 +11,18 @@ public abstract class Gun : MonoBehaviour
     protected Vector3 originalRotation;
     protected Vector3 recoilRotateRate;
 
+    protected float fireFreq; //Fire frequency
+
     protected int magazineSize;
     protected int magazine;
     protected int accuracyPercentage;
     protected int damage;
     protected int reloadTime;
 
-    protected float fireFreq; //Fire frequency
 
-    //GETTERS-SETTERS
+
     
-
+    //Return values : 0-> Couldn't fire, 1-> Shot but missed, 2-> Shot and hit
     public virtual int Fire(float fireCounter)
     {
         if (fireCounter > fireFreq) //Fire permission
@@ -46,11 +47,10 @@ public abstract class Gun : MonoBehaviour
                 return 1;
             }
         }
-
-        else return 0;
-
+        
+        else 
+            return 0;
     }
-
 
     protected virtual void FireRecoil()
     {
@@ -59,8 +59,7 @@ public abstract class Gun : MonoBehaviour
 
     public virtual void FireRecoilStop()
     {
-        gameObject.transform.rotation = Quaternion.Euler(originalRotation.x, originalRotation.y, originalRotation.z);
-        
+        gameObject.transform.rotation = Quaternion.Euler(originalRotation.x, originalRotation.y, originalRotation.z);  
     }
 
     public abstract void Reload();
@@ -68,12 +67,12 @@ public abstract class Gun : MonoBehaviour
     //Getter-Setters
     public int Damage
     {
-        get { return damage; }
+        get {return damage;}
     }
 
     public int Magazine
     {
-        get { return magazine; }
+        get {return magazine;}
     }
 
 

@@ -10,17 +10,16 @@ public class Deagle : Gun
     void Start()
     {
         managerScript = GameObject.Find("GameManager").GetComponent<GameManager>();
+
+        originalRotation = transform.rotation.eulerAngles;
         recoilRotateRate = new Vector3(0, 0, -10f);
+        
         magazineSize = 10;
         accuracyPercentage = 90;
         damage = 40;
         reloadTime = 4;
         fireFreq = 1f;
-
         magazine = magazineSize;
-        originalRotation = transform.rotation.eulerAngles;
-
-
     }
 
     public override void Reload()
@@ -35,7 +34,6 @@ public class Deagle : Gun
         yield return new WaitForSeconds(4);
         Debug.Log("Gun reloaded");
         magazine = magazineSize;
-
     }
 
 }
