@@ -4,9 +4,11 @@ using UnityEngine;
 
 public abstract class Gun : MonoBehaviour
 {
-    private Vector3 originalRotation;
-    Vector3 recoilRotateRate = new Vector3(-5, 0, 0);
+    protected GameManager managerScript;
 
+
+    protected Vector3 originalRotation;
+    protected Vector3 recoilRotateRate;
 
     protected int magazineSize;
     protected int magazine;
@@ -16,16 +18,44 @@ public abstract class Gun : MonoBehaviour
 
     protected float fireFreq; //Fire frequency
 
+    //GETTERS-SETTERS
+    
     
 
     private void Start()
     {
-        originalRotation = gameObject.transform.rotation.eulerAngles;
     }
 
 
 
-    public abstract bool Fire();
+    public virtual int Fire(float fireCounter)
+    {
+        if (fireCounter > fireFreq) //Fire permission
+        {
+            managerScript.ResetCounter(); //Reset the counter
+            FireRecoil();
+
+            if (Random.Range(1, 101) <= accuracyPercentage && magazineSize != 0) //Hit check
+            {
+                Debug.Log(gameObject.name + " has shot and hit the target.");
+                magazine--;
+                return 2;
+            }
+
+            else
+            {
+                Debug.Log(gameObject.name + " has shot but couldn't hit the target.");
+                magazine--;
+                return 1;
+            }
+        }
+
+        else return 0;
+
+    }
+
+
+        
     
 
     protected virtual void FireRecoil()
@@ -33,9 +63,10 @@ public abstract class Gun : MonoBehaviour
         gameObject.transform.localEulerAngles += recoilRotateRate;        
     }
 
-    protected virtual void FireRecoilStop()
+    public virtual void FireRecoilStop()
     {
-        gameObject.transform.localEulerAngles -= recoilRotateRate;
+        gameObject.transform.rotation = Quaternion.Euler(originalRotation.x, originalRotation.y, originalRotation.z);
+        
     }
 
     public virtual void Reload()
@@ -44,9 +75,18 @@ public abstract class Gun : MonoBehaviour
         magazine = magazineSize;
     }
 
+    //Getter-Setters
+    public int Damage
+    {
+        get { return damage; }
+    }
+
+    public int Magazine
+    {
+        get { return magazine; }
+    }
 
 
-    
 
 
 

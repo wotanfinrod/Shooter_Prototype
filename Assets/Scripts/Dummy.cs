@@ -7,10 +7,14 @@ public class Dummy : MonoBehaviour
     private int healthPoint;
     public bool isDead;
 
+    Animator dummyAnim;
 
-    // Start is called before the first frame update
+
     void Start()
     {
+        dummyAnim = gameObject.GetComponent<Animator>();
+
+        isDead = false;
         healthPoint = 100;
     }
 
@@ -19,6 +23,8 @@ public class Dummy : MonoBehaviour
         healthPoint -= damagePoint;
         if(healthPoint <= 0)
         {
+
+            dummyAnim.SetTrigger("dieTrig");
             isDead = true;
             Debug.Log("Dummy is dead");
             healthPoint = 0;
@@ -30,8 +36,13 @@ public class Dummy : MonoBehaviour
 
     public void RegenerateDummy()
     {
+        Debug.Log("Dummy is revived");
+        dummyAnim.SetTrigger("reviveTrig");
         isDead = false;
         healthPoint = 100;
 
     }
+
+
+
 }
