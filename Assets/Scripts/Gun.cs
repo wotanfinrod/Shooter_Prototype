@@ -6,6 +6,7 @@ public abstract class Gun : MonoBehaviour
 {
     protected GameManager managerScript;
 
+    [SerializeField] AudioClip shotSFX;
 
     protected Vector3 originalRotation;
     protected Vector3 recoilRotateRate;
@@ -20,23 +21,19 @@ public abstract class Gun : MonoBehaviour
 
     //GETTERS-SETTERS
     
-    
-
-    private void Start()
-    {
-    }
-
-
 
     public virtual int Fire(float fireCounter)
     {
         if (fireCounter > fireFreq) //Fire permission
         {
+            gameObject.GetComponent<AudioSource>().PlayOneShot(shotSFX);
+
             managerScript.ResetCounter(); //Reset the counter
             FireRecoil();
 
             if (Random.Range(1, 101) <= accuracyPercentage && magazineSize != 0) //Hit check
             {
+                GameObject.Find("Dummy").GetComponent<Animator>().SetTrigger("pushTrig");
                 Debug.Log(gameObject.name + " has shot and hit the target.");
                 magazine--;
                 return 2;
@@ -55,9 +52,6 @@ public abstract class Gun : MonoBehaviour
     }
 
 
-        
-    
-
     protected virtual void FireRecoil()
     {
         gameObject.transform.localEulerAngles += recoilRotateRate;        
@@ -69,11 +63,7 @@ public abstract class Gun : MonoBehaviour
         
     }
 
-    public virtual void Reload()
-    {
-        Debug.Log("Gun reloaded");
-        magazine = magazineSize;
-    }
+    public abstract void Reload();
 
     //Getter-Setters
     public int Damage
