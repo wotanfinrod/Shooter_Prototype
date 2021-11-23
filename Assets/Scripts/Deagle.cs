@@ -1,0 +1,34 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class Deagle : Gun
+{
+
+    void Start()
+    {
+        magazineSize = 10;
+        accuracyPercentage = 90;
+        damage = 40;
+        reloadTime = 4;
+
+        fireFreq = 1f;
+
+        magazine = magazineSize;
+        
+
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+    }
+
+    public override bool Fire() //
+    {
+        return false;
+
+    }
+
+
+}
