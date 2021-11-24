@@ -8,6 +8,8 @@ public class Dummy : MonoBehaviour
 
     private int healthPoint;
     public bool isDead;
+    
+    
 
     void Start()
     {
@@ -37,6 +39,11 @@ public class Dummy : MonoBehaviour
 
     }
 
+    //Getter-Setters
+    public int HealthPoint
+    {
+        get {return healthPoint;}
+    }
 
 
 }

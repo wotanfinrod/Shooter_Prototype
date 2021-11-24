@@ -7,6 +7,7 @@ public abstract class Gun : MonoBehaviour
     protected GameManager managerScript;
 
     [SerializeField] AudioClip shotSFX;
+    [SerializeField] ParticleSystem muzzleEffect;
 
     protected Vector3 originalRotation;
     protected Vector3 recoilRotateRate;
@@ -28,6 +29,8 @@ public abstract class Gun : MonoBehaviour
         if (fireCounter > fireFreq) //Fire permission
         {
             gameObject.GetComponent<AudioSource>().PlayOneShot(shotSFX);
+            muzzleEffect.Play();
+
 
             managerScript.ResetCounter(); //Reset the counter
             FireRecoil();

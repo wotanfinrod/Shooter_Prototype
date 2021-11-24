@@ -1,9 +1,16 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using TMPro;
 
 public class GameManager : MonoBehaviour
 {
+    [SerializeField]TMP_Text healthText;
+    [SerializeField]TMP_Text magazineText;
+    
+    
+
     float fireCounter;
 
     AK47 ak47;
@@ -18,6 +25,9 @@ public class GameManager : MonoBehaviour
 
         deagle.gameObject.SetActive(false);
 
+       // healthText = GameObject.Find("HealthText").GetComponent<Text>();
+      //  magazineText = GameObject.Find("MagazineText").GetComponent<Text>();
+
     }
 
     // Update is called once per frame
@@ -25,6 +35,7 @@ public class GameManager : MonoBehaviour
     {
         fireCounter += Time.deltaTime;
 
+        //Fire
         if(Input.GetKeyDown(KeyCode.S) && !dummy.isDead) //Fire Deagle (Semi-Automatic)
         {            
             if (deagle.gameObject.activeSelf)
@@ -32,6 +43,7 @@ public class GameManager : MonoBehaviour
                 if(deagle.Magazine != 0)
                 {
                     int x = deagle.Fire(fireCounter);
+                    if (x == 2) dummy.TakeDamage(deagle.Damage);
                 }
                 else
                 {
@@ -63,7 +75,8 @@ public class GameManager : MonoBehaviour
 
         }
 
-        else if(Input.GetKeyDown(KeyCode.Space)) //Change the weapon
+        //Change the weapon
+        else if (Input.GetKeyDown(KeyCode.Space)) 
         {
             if(ak47.gameObject.activeSelf) //Current was AK47
             {
@@ -81,16 +94,26 @@ public class GameManager : MonoBehaviour
             }
         }
 
-        else if(Input.GetKeyDown(KeyCode.T)) //Revive the target
+        //Revive the target
+        else if (Input.GetKeyDown(KeyCode.T)) 
         {
             dummy.RegenerateDummy();
         }
 
-        else if(Input.GetKeyDown(KeyCode.R)) //Reload
+        //Reload
+        else if (Input.GetKeyDown(KeyCode.R)) 
         {
             if (ak47.gameObject.activeSelf) ak47.Reload();
             else if (deagle.gameObject.activeSelf) deagle.Reload();
         }
+
+        //UI
+        if (ak47.gameObject.activeSelf) magazineText.text = ": " + ak47.Magazine.ToString();
+        else magazineText.text = ": " + deagle.Magazine.ToString();
+        healthText.text = dummy.HealthPoint.ToString();
+
+
+
     }
 
     public void ResetCounter()
