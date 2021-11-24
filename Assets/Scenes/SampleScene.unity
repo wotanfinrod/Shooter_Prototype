@@ -97,7 +97,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 0}
+  m_LightingDataAsset: {fileID: 112000000, guid: c324c3feb7780d34aac1450fbb1ec7c3, type: 2}
   m_LightingSettings: {fileID: 0}
 --- !u!196 &4
 NavMeshSettings:
@@ -266,6 +266,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   shotSFX: {fileID: 8300000, guid: adc0a9b274bb72547955e6070bc64a4f, type: 3}
+  muzzleEffect: {fileID: 1340927768}
   ak47_reload: {fileID: 8300000, guid: 83554d9aea165ad429428d2b80ce42df, type: 3}
 --- !u!82 &80070185
 AudioSource:
@@ -1623,6 +1624,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   shotSFX: {fileID: 8300000, guid: 32eaa65964762d14ebd6d361f2494267, type: 3}
+  muzzleEffect: {fileID: 1228878190}
   deagle_reload: {fileID: 8300000, guid: 2a71c5200362bfd4b91c79d4bc00312d, type: 3}
   deagle_shot: {fileID: 8300000, guid: 32eaa65964762d14ebd6d361f2494267, type: 3}
 --- !u!82 &902956577
@@ -1730,6 +1732,10 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 8459581684921901231, guid: ed79b9c50174d85438598cd7136c3fff, type: 3}
       propertyPath: looping
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8459581684921901231, guid: ed79b9c50174d85438598cd7136c3fff, type: 3}
+      propertyPath: stopAction
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8635408966919385509, guid: ed79b9c50174d85438598cd7136c3fff, type: 3}
@@ -2308,6 +2314,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 428966, guid: 310ca6c7edf191243823453be6a1b967, type: 3}
   m_PrefabInstance: {fileID: 1184420381}
   m_PrefabAsset: {fileID: 0}
+--- !u!198 &1228878190 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 8459581684921901231, guid: ed79b9c50174d85438598cd7136c3fff, type: 3}
+  m_PrefabInstance: {fileID: 2061149099}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1243702001
 GameObject:
   m_ObjectHideFlags: 0
@@ -2534,6 +2545,11 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 479700, guid: c86636d22380b3e42bbeafa54fdc480d, type: 3}
   m_PrefabInstance: {fileID: 1281154425}
+  m_PrefabAsset: {fileID: 0}
+--- !u!198 &1340927768 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 8459581684921901231, guid: ed79b9c50174d85438598cd7136c3fff, type: 3}
+  m_PrefabInstance: {fileID: 943389536}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1370383872
 PrefabInstance:
@@ -3462,6 +3478,10 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 8459581684921901231, guid: ed79b9c50174d85438598cd7136c3fff, type: 3}
       propertyPath: looping
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8459581684921901231, guid: ed79b9c50174d85438598cd7136c3fff, type: 3}
+      propertyPath: stopAction
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8635408966919385509, guid: ed79b9c50174d85438598cd7136c3fff, type: 3}
