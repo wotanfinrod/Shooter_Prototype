@@ -20,9 +20,6 @@ public abstract class Gun : MonoBehaviour
     protected int damage;
     protected int reloadTime;
 
-
-
-    
     //Return values : 0-> Couldn't fire, 1-> Shot but missed, 2-> Shot and hit
     public virtual int Fire(float fireCounter)
     {
@@ -30,7 +27,6 @@ public abstract class Gun : MonoBehaviour
         {
             gameObject.GetComponent<AudioSource>().PlayOneShot(shotSFX);
             muzzleEffect.Play();
-
 
             managerScript.ResetCounter(); //Reset the counter
             FireRecoil();

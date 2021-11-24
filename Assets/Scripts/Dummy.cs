@@ -7,10 +7,8 @@ public class Dummy : MonoBehaviour
     Animator dummyAnim;
 
     private int healthPoint;
-    public bool isDead;
-    
-    
-
+    public bool isDead; 
+   
     void Start()
     {
         dummyAnim = gameObject.GetComponent<Animator>();
@@ -36,7 +34,6 @@ public class Dummy : MonoBehaviour
         dummyAnim.SetTrigger("reviveTrig");
         isDead = false;
         healthPoint = 100;
-
     }
 
     //Getter-Setters

@@ -8,9 +8,7 @@ public class GameManager : MonoBehaviour
 {
     [SerializeField]TMP_Text healthText;
     [SerializeField]TMP_Text magazineText;
-    
-    
-
+  
     float fireCounter;
 
     AK47 ak47;
@@ -24,13 +22,8 @@ public class GameManager : MonoBehaviour
         dummy = GameObject.Find("Dummy").GetComponent<Dummy>();
 
         deagle.gameObject.SetActive(false);
-
-       // healthText = GameObject.Find("HealthText").GetComponent<Text>();
-      //  magazineText = GameObject.Find("MagazineText").GetComponent<Text>();
-
     }
 
-    // Update is called once per frame
     void Update()
     {
         fireCounter += Time.deltaTime;
@@ -72,7 +65,6 @@ public class GameManager : MonoBehaviour
         {
             if (ak47.gameObject.activeSelf) ak47.FireRecoilStop();
             else if (deagle.gameObject.activeSelf) deagle.FireRecoilStop();
-
         }
 
         //Change the weapon

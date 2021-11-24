@@ -5,11 +5,9 @@ using UnityEngine;
 public class AK47 : Gun
 {
     [SerializeField] AudioClip ak47_reload;
-    
-
+   
     float fireCounter;
 
-    // Start is called before the first frame update
     void Start()
     {
         managerScript = GameObject.Find("GameManager").GetComponent<GameManager>();
