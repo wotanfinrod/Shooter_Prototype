@@ -1,23 +1,34 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
+using UnityEngine.UI;
 
 public class Dummy : MonoBehaviour
 {
+    const int healthTextIndex = 2;
+    TMP_Text healthText;
+    
     Animator dummyAnim;
 
     private int healthPoint;
     public bool isDead; 
-   
+
     void Start()
     {
         dummyAnim = gameObject.GetComponent<Animator>();
+        healthText = gameObject.transform.GetChild(healthTextIndex).gameObject.GetComponent<TMP_Text>();
         isDead = false;
         healthPoint = 100;
+
+        
+
     }
 
     public void TakeDamage(int damagePoint)
     {
+        gameObject.GetComponent<Animator>().SetTrigger("pushTrig");
+
         healthPoint -= damagePoint;
         if(healthPoint <= 0)
         {
@@ -26,6 +37,9 @@ public class Dummy : MonoBehaviour
             Debug.Log("Dummy is dead");
             healthPoint = 0;
         }
+
+        healthText.text = healthPoint.ToString();
+
     }
 
     public void RegenerateDummy()
@@ -34,6 +48,9 @@ public class Dummy : MonoBehaviour
         dummyAnim.SetTrigger("reviveTrig");
         isDead = false;
         healthPoint = 100;
+
+        healthText.text = healthPoint.ToString();
+
     }
 
     //Getter-Setters

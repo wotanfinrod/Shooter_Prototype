@@ -11,7 +11,6 @@ public class Deagle : Gun
     {
         managerScript = GameObject.Find("GameManager").GetComponent<GameManager>();
 
-        originalRotation = transform.rotation.eulerAngles;
         recoilRotateRate = new Vector3(0, 0, -10f);
         
         magazineSize = 10;

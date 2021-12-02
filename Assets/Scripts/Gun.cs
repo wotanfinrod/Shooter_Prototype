@@ -9,7 +9,7 @@ public abstract class Gun : MonoBehaviour
     [SerializeField] AudioClip shotSFX;
     [SerializeField] ParticleSystem muzzleEffect;
 
-    protected Vector3 originalRotation;
+    int recoilCount = 0;
     protected Vector3 recoilRotateRate;
 
     protected float fireFreq; //Fire frequency
@@ -23,17 +23,19 @@ public abstract class Gun : MonoBehaviour
     //Return values : 0-> Couldn't fire, 1-> Shot but missed, 2-> Shot and hit
     public virtual int Fire(float fireCounter)
     {
+
         if (fireCounter > fireFreq) //Fire permission
         {
+
             gameObject.GetComponent<AudioSource>().PlayOneShot(shotSFX);
             muzzleEffect.Play();
 
             managerScript.ResetCounter(); //Reset the counter
+
             FireRecoil();
 
             if (Random.Range(1, 101) <= accuracyPercentage && magazineSize != 0) //Hit check
             {
-                GameObject.Find("Dummy").GetComponent<Animator>().SetTrigger("pushTrig");
                 Debug.Log(gameObject.name + " has shot and hit the target.");
                 magazine--;
                 return 2;
@@ -53,12 +55,14 @@ public abstract class Gun : MonoBehaviour
 
     protected virtual void FireRecoil()
     {
-        gameObject.transform.localEulerAngles += recoilRotateRate;        
+        gameObject.transform.localEulerAngles += recoilRotateRate;
+        recoilCount++;
     }
 
     public virtual void FireRecoilStop()
     {
-        gameObject.transform.rotation = Quaternion.Euler(originalRotation.x, originalRotation.y, originalRotation.z);  
+        gameObject.transform.localEulerAngles -= recoilRotateRate * recoilCount;
+        recoilCount = 0;
     }
 
     public abstract void Reload();

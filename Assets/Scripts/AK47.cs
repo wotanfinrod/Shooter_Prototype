@@ -12,7 +12,6 @@ public class AK47 : Gun
     {
         managerScript = GameObject.Find("GameManager").GetComponent<GameManager>();
 
-        originalRotation = transform.rotation.eulerAngles;
         recoilRotateRate = new Vector3(-0.5f, 0, 0);
 
         magazineSize = 30;
