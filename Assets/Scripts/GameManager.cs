@@ -34,6 +34,8 @@ public class GameManager : MonoBehaviour
 
     void Update()
     {
+        IGun activeWeaponScript = activeWeapon.GetComponent<IGun>();
+
         //Selecting the Dummy in front of camera
         Ray ray = new Ray(Camera.main.transform.position, Camera.main.transform.forward);
         RaycastHit hit;
@@ -51,34 +53,34 @@ public class GameManager : MonoBehaviour
             crosshair_idle.SetActive(true);
             selectedDummy = null;
         }
+        
         fireCounter += Time.deltaTime;
 
         //Fire Deagle (Semi-Automatic)
+        if (Input.GetKeyDown(KeyCode.Mouse0) && selectedDummy != null && !selectedDummy.isDead) 
+        if (activeWeapon.name == "DesertEagle")
         {
-            if (Input.GetKeyDown(KeyCode.Mouse0) && selectedDummy != null && !selectedDummy.isDead) 
-            if (activeWeapon.name == "DesertEagle")
+            if(activeWeaponScript.GetMagazine() != 0)
             {
-                if(deagle.GetMagazine() != 0)
-                {
-                    int x = deagle.Fire(fireCounter);
-                    if (x == 2) selectedDummy.TakeDamage(deagle.Damage);
-                }
-                else
-                {
-                    Debug.Log("Magazine is empty. Reload.");
-                }
+                bool x = activeWeaponScript.Fire(fireCounter);
+                if (x) selectedDummy.TakeDamage(deagle.Damage);
             }
-        }
+            else
+            {
+                    Debug.Log("Magazine is empty. Reload.");
+            }
+          }
+        
 
         //Fire AK47 (Automatic)
         if (Input.GetKey(KeyCode.Mouse0) && selectedDummy != null && !selectedDummy.isDead) 
         {
             if (activeWeapon.name == "AK47")
             {
-                if(ak47.GetMagazine() != 0)
+                if(activeWeaponScript.GetMagazine() != 0)
                 {   
-                    int x = ak47.Fire(fireCounter);                
-                    if (x == 2) selectedDummy.TakeDamage(ak47.Damage);
+                    bool x = activeWeaponScript.Fire(fireCounter);                
+                    if (x) selectedDummy.TakeDamage(ak47.Damage);
                 }
                 else
                 {
@@ -90,7 +92,7 @@ public class GameManager : MonoBehaviour
         //Recoil Stop
         if (Input.GetKeyUp(KeyCode.Mouse0))
         {
-            activeWeapon.GetComponent<IGun>().FireRecoilStop();   
+            activeWeaponScript.FireRecoilStop();   
         }
 
         //Change the weapon
@@ -125,11 +127,11 @@ public class GameManager : MonoBehaviour
         //Reload
         else if (Input.GetKeyDown(KeyCode.R)) 
         {
-            activeWeapon.GetComponent<IGun>().Reload();   
+            activeWeaponScript.Reload();   
         }
 
         //UI
-        magazineText.text =": " + activeWeapon.GetComponent<IGun>().GetMagazine().ToString();           
+        magazineText.text =": " + activeWeaponScript.GetMagazine().ToString();           
     }
 
     public void ResetCounter()

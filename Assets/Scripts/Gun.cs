@@ -20,13 +20,10 @@ public abstract class Gun : MonoBehaviour, IGun
     protected int damage;
     protected int reloadTime;
 
-    //Return values : 0-> Couldn't fire, 1-> Shot but missed, 2-> Shot and hit
-    public virtual int Fire(float fireCounter)
+    public virtual bool Fire(float fireCounter)
     {
-
         if (fireCounter > fireFreq) //Fire permission
         {
-
             gameObject.GetComponent<AudioSource>().PlayOneShot(shotSFX);
             muzzleEffect.Play();
 
@@ -38,19 +35,18 @@ public abstract class Gun : MonoBehaviour, IGun
             {
                 Debug.Log(gameObject.name + " has shot and hit the target.");
                 magazine--;
-                return 2;
+                return true;
             }
 
             else
             {
                 Debug.Log(gameObject.name + " has shot but couldn't hit the target.");
                 magazine--;
-                return 1;
+                return false;
             }
         }
-        
-        else 
-            return 0;
+        else
+            return false;
     }
 
     public virtual void FireRecoil()

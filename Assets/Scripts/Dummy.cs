@@ -20,15 +20,11 @@ public class Dummy : MonoBehaviour
         healthText = gameObject.transform.GetChild(healthTextIndex).gameObject.GetComponent<TMP_Text>();
         isDead = false;
         healthPoint = 100;
-
-        
-
     }
 
     public void TakeDamage(int damagePoint)
     {
         gameObject.GetComponent<Animator>().SetTrigger("pushTrig");
-
         healthPoint -= damagePoint;
         if(healthPoint <= 0)
         {
@@ -39,7 +35,6 @@ public class Dummy : MonoBehaviour
         }
 
         healthText.text = healthPoint.ToString();
-
     }
 
     public void RegenerateDummy()
@@ -48,7 +43,6 @@ public class Dummy : MonoBehaviour
         dummyAnim.SetTrigger("reviveTrig");
         isDead = false;
         healthPoint = 100;
-
         healthText.text = healthPoint.ToString();
 
     }
@@ -58,6 +52,4 @@ public class Dummy : MonoBehaviour
     {
         get {return healthPoint;}
     }
-
-
 }

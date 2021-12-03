@@ -6,8 +6,7 @@ public interface IGun
 {
     void FireRecoil();
     void FireRecoilStop();
-
     void Reload();
-
     int  GetMagazine();
-}
+    bool Fire(float fireCounter);
+    }
