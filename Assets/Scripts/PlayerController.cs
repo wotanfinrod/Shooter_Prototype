@@ -5,22 +5,17 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     const float positionY = 21.8f;
-    
     private float playerSpeed;
-    private float mouseSensivity;
 
     void Start()
     {
-        playerSpeed = 75f;
-        mouseSensivity = 50f;
+        playerSpeed = 100f;
     }
 
-    // Update is called once per frame
     void Update()
     {
         CharacterMovement();
-        MouseControl();
-        
+        MouseControl();       
     }
 
     void CharacterMovement()
@@ -34,7 +29,6 @@ public class PlayerController : MonoBehaviour
 
     void MouseControl()
     {
-
         float mouseX = Input.GetAxis("Mouse X");
         float mouseY = Input.GetAxis("Mouse Y");
 
@@ -43,8 +37,6 @@ public class PlayerController : MonoBehaviour
         rotPlayer.y += mouseX;
 
         gameObject.transform.rotation = Quaternion.Euler(rotPlayer);
-
-
     }
 
 

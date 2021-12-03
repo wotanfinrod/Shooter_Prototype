@@ -17,12 +17,18 @@ public class GameManager : MonoBehaviour
     AK47 ak47;
     Deagle deagle;
     public Dummy selectedDummy;
+    GameObject activeWeapon;
+
 
     void Start()
     {
+        Cursor.visible = false;
+        Cursor.lockState = CursorLockMode.Locked;
+
         ak47 = GameObject.Find("AK47").GetComponent<AK47>();
         deagle = GameObject.Find("DesertEagle").GetComponent<Deagle>();
 
+        activeWeapon = GameObject.Find("AK47");
         deagle.gameObject.SetActive(false);
     }
 
@@ -37,7 +43,6 @@ public class GameManager : MonoBehaviour
             crosshair_idle.SetActive(false);
 
             selectedDummy = hit.transform.gameObject.GetComponent<Dummy>();
-            Debug.Log("Selected Dummy:" + hit.transform.gameObject.name);
         }
 
         else //Deselecting dummy
@@ -48,13 +53,12 @@ public class GameManager : MonoBehaviour
         }
         fireCounter += Time.deltaTime;
 
-        //Fire
-        
-        if(Input.GetKeyDown(KeyCode.S) && selectedDummy != null && !selectedDummy.isDead) //Fire Deagle (Semi-Automatic)
-        {            
-            if (deagle.gameObject.activeSelf)
+        //Fire Deagle (Semi-Automatic)
+        {
+            if (Input.GetKeyDown(KeyCode.Mouse0) && selectedDummy != null && !selectedDummy.isDead) 
+            if (activeWeapon.name == "DesertEagle")
             {
-                if(deagle.Magazine != 0)
+                if(deagle.GetMagazine() != 0)
                 {
                     int x = deagle.Fire(fireCounter);
                     if (x == 2) selectedDummy.TakeDamage(deagle.Damage);
@@ -66,11 +70,12 @@ public class GameManager : MonoBehaviour
             }
         }
 
-        if(Input.GetKey(KeyCode.S) && selectedDummy != null && !selectedDummy.isDead) //Fire AK47 (Automatic)
+        //Fire AK47 (Automatic)
+        if (Input.GetKey(KeyCode.Mouse0) && selectedDummy != null && !selectedDummy.isDead) 
         {
-            if (ak47.gameObject.activeSelf)
+            if (activeWeapon.name == "AK47")
             {
-                if(ak47.Magazine != 0)
+                if(ak47.GetMagazine() != 0)
                 {   
                     int x = ak47.Fire(fireCounter);                
                     if (x == 2) selectedDummy.TakeDamage(ak47.Damage);
@@ -82,28 +87,32 @@ public class GameManager : MonoBehaviour
             }
         }
 
-        if (Input.GetKeyUp(KeyCode.S))
+        //Recoil Stop
+        if (Input.GetKeyUp(KeyCode.Mouse0))
         {
-            if (ak47.gameObject.activeSelf) ak47.FireRecoilStop();
-            else if (deagle.gameObject.activeSelf) deagle.FireRecoilStop();
+            activeWeapon.GetComponent<IGun>().FireRecoilStop();   
         }
 
         //Change the weapon
         else if (Input.GetKeyDown(KeyCode.Space)) 
         {
-            if(ak47.gameObject.activeSelf) //Current was AK47
+            if(activeWeapon.name == "AK47") //Current was AK47
             {
                 Debug.Log("Active Weapon: Desert Eagle");
                 ak47.gameObject.SetActive(false);
                 deagle.gameObject.SetActive(true);
+
+                activeWeapon = GameObject.Find("DesertEagle");
+
             }
 
-            else //Current was Deagle
+            else
             {
                 Debug.Log("Active Weapon: AK47");
                 deagle.gameObject.SetActive(false);
                 ak47.gameObject.SetActive(true);
 
+                activeWeapon = GameObject.Find("AK47");
             }
         }
         
@@ -116,15 +125,12 @@ public class GameManager : MonoBehaviour
         //Reload
         else if (Input.GetKeyDown(KeyCode.R)) 
         {
-            if (ak47.gameObject.activeSelf) ak47.Reload();
-            else if (deagle.gameObject.activeSelf) deagle.Reload();
+            activeWeapon.GetComponent<IGun>().Reload();   
         }
 
         //UI
-        if (ak47.gameObject.activeSelf) magazineText.text = ": " + ak47.Magazine.ToString();
-        else magazineText.text = ": " + deagle.Magazine.ToString();
-   
-        }
+        magazineText.text =": " + activeWeapon.GetComponent<IGun>().GetMagazine().ToString();           
+    }
 
     public void ResetCounter()
     {

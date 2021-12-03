@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public abstract class Gun : MonoBehaviour
+public abstract class Gun : MonoBehaviour, IGun
 {
     protected GameManager managerScript;
 
@@ -53,7 +53,7 @@ public abstract class Gun : MonoBehaviour
             return 0;
     }
 
-    protected virtual void FireRecoil()
+    public virtual void FireRecoil()
     {
         gameObject.transform.localEulerAngles += recoilRotateRate;
         recoilCount++;
@@ -73,9 +73,9 @@ public abstract class Gun : MonoBehaviour
         get {return damage;}
     }
 
-    public int Magazine
+    public int GetMagazine()
     {
-        get {return magazine;}
+        return magazine;
     }
 
 
