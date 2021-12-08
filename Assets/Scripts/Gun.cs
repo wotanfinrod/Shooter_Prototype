@@ -24,9 +24,8 @@ public abstract class Gun : MonoBehaviour, IGun
     {
         if (fireCounter > fireFreq) //Fire permission
         {
-            gameObject.GetComponent<AudioSource>().PlayOneShot(shotSFX);
+            if(managerScript.isSFXActive) gameObject.GetComponent<AudioSource>().PlayOneShot(shotSFX);
             muzzleEffect.Play();
-
             managerScript.ResetCounter(); //Reset the counter
 
             FireRecoil();

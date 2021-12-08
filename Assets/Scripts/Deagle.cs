@@ -12,7 +12,7 @@ public class Deagle : Gun
         managerScript = GameObject.Find("GameManager").GetComponent<GameManager>();
 
         recoilRotateRate = new Vector3(0, 0, -10f);
-        
+    
         magazineSize = 10;
         accuracyPercentage = 90;
         damage = 40;
@@ -28,7 +28,7 @@ public class Deagle : Gun
 
     IEnumerator ReloadWait()
     {
-        gameObject.GetComponent<AudioSource>().PlayOneShot(deagle_reload);
+       if(managerScript.isSFXActive) gameObject.GetComponent<AudioSource>().PlayOneShot(deagle_reload);
         Debug.Log("Reloading...");
         yield return new WaitForSeconds(4);
         Debug.Log("Gun reloaded");

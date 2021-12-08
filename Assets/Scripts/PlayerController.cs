@@ -6,9 +6,12 @@ public class PlayerController : MonoBehaviour
 {
     const float positionY = 21.8f;
     private float playerSpeed;
+    private float mouseSensivityMultiplier;
 
     void Start()
     {
+        mouseSensivityMultiplier = GameObject.Find("GameManager").GetComponent<GameManager>().mouseSensivityMultiplier;
+
         playerSpeed = 100f;
     }
 
@@ -33,8 +36,8 @@ public class PlayerController : MonoBehaviour
         float mouseY = Input.GetAxis("Mouse Y");
 
         Vector3 rotPlayer = gameObject.transform.rotation.eulerAngles;
-        rotPlayer.x -= mouseY;
-        rotPlayer.y += mouseX;
+        rotPlayer.x -= mouseY * mouseSensivityMultiplier;
+        rotPlayer.y += mouseX * mouseSensivityMultiplier;
 
         gameObject.transform.rotation = Quaternion.Euler(rotPlayer);
     }

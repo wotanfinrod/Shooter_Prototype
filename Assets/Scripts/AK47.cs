@@ -29,7 +29,7 @@ public class AK47 : Gun
 
     IEnumerator ReloadWait()
     {
-        gameObject.GetComponent<AudioSource>().PlayOneShot(ak47_reload);
+        if(managerScript.isSFXActive)gameObject.GetComponent<AudioSource>().PlayOneShot(ak47_reload);
         Debug.Log("Reloading...");       
         yield return new WaitForSeconds(5);
         Debug.Log("Gun reloaded");

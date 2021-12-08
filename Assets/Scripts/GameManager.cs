@@ -6,19 +6,22 @@ using TMPro;
 
 public class GameManager : MonoBehaviour
 {
-    [SerializeField] GameObject crosshair_idle;
-    [SerializeField] GameObject crosshair_attack;
-
+    [SerializeField]GameObject crosshair_idle;
+    [SerializeField]GameObject crosshair_attack;
     [SerializeField]TMP_Text healthText;
     [SerializeField]TMP_Text magazineText;
   
-    float fireCounter;
-
-    AK47 ak47;
-    Deagle deagle;
     public Dummy selectedDummy;
     GameObject activeWeapon;
 
+    AK47 ak47;
+    Deagle deagle;
+
+    float fireCounter;
+    
+    public bool isMusicActive;
+    public bool isSFXActive;
+    public float mouseSensivityMultiplier;
 
     void Start()
     {
@@ -27,9 +30,14 @@ public class GameManager : MonoBehaviour
 
         ak47 = GameObject.Find("AK47").GetComponent<AK47>();
         deagle = GameObject.Find("DesertEagle").GetComponent<Deagle>();
-
         activeWeapon = GameObject.Find("AK47");
         deagle.gameObject.SetActive(false);
+
+        //Passing Settings Values
+        MenuManager menuManager = GameObject.Find("MenuManager").GetComponent<MenuManager>();
+        isMusicActive = menuManager.GetMusicFlag();
+        isSFXActive = menuManager.GetSFXFlag();
+        mouseSensivityMultiplier = menuManager.GetMouseSensivity();
     }
 
     void Update()
@@ -121,7 +129,8 @@ public class GameManager : MonoBehaviour
         //Revive the target
         else if (Input.GetKeyDown(KeyCode.T)) 
         {
-            selectedDummy.RegenerateDummy();
+            if(selectedDummy != null)  
+                selectedDummy.RegenerateDummy();
         }
 
         //Reload
