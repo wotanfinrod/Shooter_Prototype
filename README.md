@@ -1,10 +1,12 @@
 Shooter Prototype Made with Unity.  
   
-S -> Fire  
-Space -> Change Weapon  
+WASD -> Movement  
+Mouse Click -> Fire  
 R -> Reload  
 T -> Regenerate Dummy  
-Arrow Keys -> Movement
+Space -> Change Weapon    
+
+
   
 https://play.unity.com/mg/other/internprojectbuild1 
 
